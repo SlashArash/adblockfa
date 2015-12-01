@@ -1,5 +1,5 @@
 ! Ads block filter list for PERSIAN sites
-! Last modified: Tue Dec  1 01:36:47 IRST 2015
+! Last modified: Tue Dec  1 17:17:31 IRST 2015
 ! Licence: The Beer-Ware License (The Ab-Havij-Ware License)
 ! Please report any unblocked adverts or problems via e-mail (arash.kadkhodaei@gmail.com).
 
@@ -20,6 +20,8 @@
 ||nextads.ir^$third-party
 ||nextpopup.ir^$popup,third-party
 ||p30rank.ir^$popup,third-party
+||persianstat.com^$third-party
+||persianstat.ir^$third-party
 ||popkade.ir^$popup,third-party
 ||poppop.ir^$popup,third-party
 ||popup94.ir^$popup,third-party
@@ -33,8 +35,10 @@
 ||tabligheirani.com^$third-party
 ||terraclicks.com^$popup,third-party
 ||toppopup.com^$popup,third-party
+webgozar.ir^$third-party
 
 !-----------------------General advert blocking filters-----------------------!
+ads
 agahi/
 tabligh/
 tablighat/
@@ -48,6 +52,7 @@ files/adv/
 ||98ia.com/images/Banner/
 ||ad.utop.ir/b/
 ||adpic.asiatech.ir/
+||ads.barnameserver.com/
 ||ads.goldiran.ir/
 ||ads.papnews.ir/
 ||ads.rzb.ir/
@@ -70,6 +75,7 @@ files/adv/
 ||banner.dabi.ir/Banner.aspx
 ||barato.ir/ads-1/
 ||barcanews.org/uploads/images/*.gif
+||barnamenevis.org/images/banners/
 ||beytoote.com/shops/digi.html
 ||bia4music.com/*.gif
 ||bigtheme.ir/wp-content/uploads/*.gif
@@ -85,6 +91,7 @@ files/adv/
 ||dl.flashkhor.com/pictures/forosh/
 ||dl.konkur.in/image/ads/
 ||dl.nicmusic.org/nicmusic/*.gif
+||dl.pnunews.com/image/*.gif
 ||dl.smusic.ir/*.gif
 ||dl.smusic.ir/*940.jpg
 ||donya-e-eqtesad.com/banner/
@@ -192,6 +199,8 @@ files/adv/
 ||pichak.net/ads/*
 ||pishkhaan.net/pishkhaanads/
 ||plus.ir/adsImage/
+||pnuna.com/wp-content/uploads/*.gif
+||pnunews.net/wp-content/uploads/*.gif
 ||pop-music.ir/aks/
 ||rahnama.com/pub/img/SiteAdvert/
 ||rajanews.com/sites/default/files/superadmin/
@@ -235,6 +244,7 @@ files/adv/
 ||vatandownload.com/ads/
 ||varzesh3.com/files/ads/
 ||vista.ir/banners/
+||webgozar.com/adimg/*.gif
 ||wikinaz.ir/wp-content/uploads/*.gif
 ||yasdl.com/wp-content/uploads/*.gif
 ||zamannews.ir/serve/*.swf
