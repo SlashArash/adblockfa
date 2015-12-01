@@ -1,5 +1,5 @@
 ! Ads block filter list for PERSIAN sites
-! Last modified: Tue Dec  1 17:17:31 IRST 2015
+! Last modified: Tue Dec  1 01:36:47 IRST 2015
 ! Licence: The Beer-Ware License (The Ab-Havij-Ware License)
 ! Please report any unblocked adverts or problems via e-mail (arash.kadkhodaei@gmail.com).
 
@@ -35,7 +35,7 @@
 ||tabligheirani.com^$third-party
 ||terraclicks.com^$popup,third-party
 ||toppopup.com^$popup,third-party
-webgozar.ir^$third-party
+||webgozar.ir^$third-party
 
 !-----------------------General advert blocking filters-----------------------!
 ads
