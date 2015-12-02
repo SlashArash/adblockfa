@@ -1,5 +1,5 @@
-! Advert blocking filters list for PERSIAN sites
-! Last modified: Wed Dec  2 09:39:55 IRST 2015
+! Ads block filter list for PERSIAN sites
+! Last modified: Tue Dec  1 01:36:47 IRST 2015
 ! Licence: The Beer-Ware License (The Ab-Havij-Ware License)
 ! Please report any unblocked adverts or problems via e-mail (arash.kadkhodaei@gmail.com).
 
@@ -39,16 +39,12 @@
 
 !-----------------------General advert blocking filters-----------------------!
 ads
-advertising
-advertisment
-adverts
 agahi/
 tabligh/
 tablighat/
 files/adv/
 
 !----------------------Specific advert blocking filters-----------------------!
-||1pezeshk.com/wp-content/uploads/*.gif
 ||1varzesh.com/images/banners/
 ||20script.ir/banner/*.gif
 ||55online.ir/baner-55online/
@@ -255,3 +251,4 @@ files/adv/
 ||zoomg.ir/wp-content/uploads/banners/
 ||zoomit.ir/images/banners/
 ||zoomit.ir/images/*.GIF
+
