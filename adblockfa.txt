@@ -1,7 +1,8 @@
-! Advert blocking filters list for PERSIAN sites
-! Last modified: Wed Dec  2 16:07:07 IRST 2015
+! Advert blocking filters list for Farsi sites
+! Last modified: Fri Dec  4 12:28:44 IRST 2015
 ! Licence: The Beer-Ware License (The Ab-Havij-Ware License)
 ! Please report any unblocked adverts or problems via e-mail (arash.kadkhodaei@gmail.com).
+! You can also help me to improve it with git! -where? -http://j.mp/abfarsi
 
 !---------------------------Third-party advertisers---------------------------!
 ||ad2ad.ir^$third-party
@@ -9,6 +10,7 @@
 ||adsready.com^$third-party
 ||anetwork.ir^$third-party
 ||apanet.net^$third-party
+||asandl.com^$third-party
 ||clickyab.com^$third-party
 ||facenama.com^$third-party
 ||fastclick.co^$third-party
@@ -34,6 +36,8 @@
 ||rdsa2012.com^$popup,third-party
 ||sabavision.com^$third-party
 ||tabligheirani.com^$third-party
+||telegram.me^$popup,third-party
+||telegram.org^$popup,third-party
 ||terraclicks.com^$popup,third-party
 ||toppopup.com^$popup,third-party
 ||webgozar.ir^$third-party
@@ -50,8 +54,6 @@ advertisment/
 advertisements/
 adverts/
 agahi/
-files/ads/
-files/adv/
 siteads/
 SiteAdvert/
 tabligh/
@@ -59,6 +61,7 @@ tablighat/
 tabliq/
 
 !----------------------Specific advert blocking filters-----------------------!
+||1admin.ir/wp-content/uploads/*300x250.jpg
 ||1pezeshk.com/wp-content/uploads/*.gif
 ||1varzesh.com/images/banners/
 ||20script.ir/banner/*.gif
@@ -98,6 +101,7 @@ tabliq/
 ||dehvand.ir/wp-content/themes/job-dehvand/banner/*
 ||digiato.com/wp-content/uploads/*.gif
 ||digionline.ir/Objects/
+||dl.10teh-song.pw/*/BANER/*.jpg
 ||dl.flashkhor.com/pictures/forosh/
 ||dl.nicmusic.org/nicmusic/*.gif
 ||dl.pnunews.com/image/*.gif
@@ -112,6 +116,7 @@ tabliq/
 ||eghtesadonline.com/PooyaSoftPublisher/Storage/Banners/
 ||estekhtam.com/wp-content/uploads/*.gif
 ||farhangnews.ir/sites/default/files/banner/
+||farskids*.com/wp-content/uploads/*.gif
 ||farsroid.com/file/*.gif
 ||farsnews.com/Banner/MainPage/Left/
 ||fbm.ptcdn.org/banners/
@@ -148,7 +153,11 @@ tabliq/
 ||irexpert.ir/Webforms/Default/a/
 ||itbazar.com/UploadFiles/*.gif
 ||itiran.com/sites/default/files/*banner*
+||itresan.com/banner/
 ||itresan.com/wp-content/uploads/*.gif
+||itresan.com/wp-content/uploads/*630x90*
+||itresan.com/wp-content/uploads/*720x90*
+||itresan.com/wp-content/uploads/*90x720*
 ||jarchi.ir/*.gif
 ||khabarpu.com/img/kp2/banner/
 ||khabaru.ir/*.gif
@@ -167,6 +176,8 @@ tabliq/
 ||mihanmarket.com/Objects/*.gif
 ||momtaznews.com/images/*.gif
 ||mozando.com/cms/images/banner/promotion/
+||musicbaran*.org/Single/*.gif
+||musicbaran*.org/Single/1394/Khordad/09/bk4q_farzad.jpg
 ||namnak.papnews.ir/namnak/N1.html
 ||nex1music.ir/banner/
 ||nextfilm.ir/img/*.gif
@@ -180,6 +191,7 @@ tabliq/
 ||p30world.com/wp/wp-content/uploads/*.swf
 ||papnews.ir/Content/images/*.gif
 ||parsfootball.com/files/banners/
+||parsish.com/*/*.gif
 ||payaneh.ir/fa/images/*.gif
 ||payaneh.ir/fa/images/*.swf
 ||pedal.ir/wp-content/uploads/*.gif
@@ -224,6 +236,9 @@ tabliq/
 ||vakonesh.com/wp-content/uploads/*.gif
 ||vista.ir/banners/
 ||wikinaz.ir/wp-content/uploads/*.gif
+||worldit.ir/wp-content/uploads/*.gif
+||worldit.ir/wp-content/uploads/2015/08/pezeshkbarg.jpg
+||xperian.ir/xperian/wp-content/uploads/*.gif
 ||yasdl.com/wp-content/uploads/*.gif
 ||zamannews.ir/serve/*.swf
 ||zoomg.ir/wp-content/uploads/banners/
