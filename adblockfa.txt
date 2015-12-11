@@ -1,6 +1,7 @@
+
 ! Advert blocking filters list for Farsi sites
-! Last modified: Wed Dec  9 19:15:58 IRST 2015
-! Licence: The Beer-Ware License (The Ab-Havij-Ware License)
+! Last modified: Fri Dec 11 14:23:43 IRST 2015
+! License: The Beer-Ware License (The Ab-Havij-Ware License)
 ! Please report any unblocked adverts or problems via e-mail (arash.kadkhodaei@gmail.com).
 ! You can also help me to improve it with git! -where? -http://j.mp/abfarsi
 
@@ -42,6 +43,7 @@
 ||nextpopup.ir^$third-party,popup
 ||onclickads.net^$third-party,popup
 ||p30rank.ir^$third-party,popup
+||pardad.ir^$third-party,popup
 ||paypop.org^$third-party,popup
 ||persianstat.com^$third-party
 ||persianstat.ir^$third-party
@@ -132,6 +134,7 @@
 ###agahi
 ###banner
 ###home_adv
+###skinak_ads_bottom_right_125
 ###tabligh
 ###tabligh-bottom
 ###tabligh-box
@@ -166,6 +169,7 @@
 ##.ads-content
 ##.ads-footer
 ##.ads-item
+##.ads-left
 ##.ads-main
 ##.ads-post
 ##.ads-section
@@ -178,7 +182,10 @@
 ##.ads-top
 ##.ads-tops
 ##.ads-widget
+##.ads.box
+##.ads.sidebar-box
 ##.ads1
+##.ads6
 ##.ads_area
 ##.ads_article
 ##.ads_banner
@@ -198,6 +205,7 @@
 ##.adsarea
 ##.adsbanner
 ##.adsbox
+##.adv
 ##.adv-banner
 ##.adv-block
 ##.adv-border
@@ -223,7 +231,12 @@
 ##.adz
 ##.agahi
 ##.banner
+##.bannergroup
+##.firstV_Message
 ##.home_adv
+##.img-ads-center
+##.popup_link
+##.sidebaradbox
 ##.tabligh
 ##.tabligh-bottom
 ##.tabligh-box
@@ -232,19 +245,25 @@
 ##.tabligh-top
 ##.tablighat
 ##.tablighatmain
+##.tabliq
 ##.tabliq-bottom
 ##.tabliq-left
 ##.tabliq-right
 ##.tabliq-top
+##.tblgh
 ##.textads
 ##.textads1
 ##.textads2
 ##.textads3
 ##.top-ads
+##.top_ads
 ##.topads
 ##.topads1
 ##.topads2
+##.topbanners-body
 ##.txt_adv_content
+##img[alt="ads"]
+##img[alt="تبلیغات"]
 Ads^
 Adver^
 SiteAdvert^
@@ -273,10 +292,10 @@ tablligh^
 asandl.com##.text-asan
 download.ir##.content-top-ads-box
 downloadha.com##.entry-etc
-fibazar.ir/uploads/ad_*.gif
 ilna.ir###sticker
 ilna.ir##.zxcList
 itresan.com##.wp-image-6848
+khabarpu.com##.txtads-whitebck
 mihandownload.com##.fix
 mihandownload.com##.links-block
 shahrekhabar.com##body > table:nth-of-type(1)
@@ -286,6 +305,7 @@ zoomit.ir###rt-maintopcontent
 ||1admin.ir/wp-content/uploads/*300x250.jpg
 ||1pezeshk.com/wp-content/uploads/*.gif
 ||1varzesh.com/images/banners/
+||2daylink.com/files/banner/
 ||7gardoon.com/pics/*_banner_image/
 ||10teh-song.pw/*/BANER/*.jpg
 ||20script.ir/banner/*.gif
@@ -352,6 +372,7 @@ zoomit.ir###rt-maintopcontent
 ||farsnews.com/Banner/MainPage/Left/
 ||farsroid.com/file/*.gif
 ||fbm.ptcdn.org/banners/
+||fibazar.ir/uploads/ad_*.gif
 ||files.namnak.com/users/shop/*
 ||flashkhor.com/pictures/forosh/
 ||footofan.com/cmsfiles/mainportal/*.gif
@@ -419,6 +440,8 @@ zoomit.ir###rt-maintopcontent
 ||mizbanwp.com/bnr/
 ||mobile.ir/Static/banners/
 ||mobilestan.net/wp-content/banners/
+||mobna.com/wp-content/uploads/*.gif
+||mobna.com/wp-content/uploads/*.swf
 ||momtaznews.com/images/*.gif
 ||mozando.com/cms/images/banner/promotion/
 ||musicbaran*.org/Single/*.gif
@@ -428,6 +451,7 @@ zoomit.ir###rt-maintopcontent
 ||nex1music.ir/banner/
 ||nextfilm.ir/img/*.gif
 ||niazerooz.com/Im/B/
+||nicedownload.ir/wp-content/uploads/*.gif
 ||nicmusic.org/nicmusic/*.gif
 ||niksalehi.com/ads*
 ||niksalehi.com/test.php
@@ -439,6 +463,7 @@ zoomit.ir###rt-maintopcontent
 ||p30world.com/wp/wp-content/uploads/*.gif
 ||p30world.com/wp/wp-content/uploads/*.swf
 ||papnews.ir/Content/images/*.gif
+||pardad.ir/*.gif
 ||parsegard.com/sites/default/files/*.gif
 ||parsfootball.com/files/banners/
 ||parsish.com/*/*.gif
@@ -490,6 +515,7 @@ zoomit.ir###rt-maintopcontent
 ||unp.ir/*.gif
 ||up.facenama.com/file/*.gif
 ||up.skinak.ir/view/*.gif
+||uploadboy.com/banner/
 ||vakonesh.com/wp-content/uploads/*.gif
 ||vista.ir/banners/
 ||wikinaz.ir/wp-content/uploads/*.gif
@@ -507,3 +533,4 @@ zoomit.ir###rt-maintopcontent
 ||zoomit.ir//images/banners/
 ||zoomit.ir/images/*.GIF
 ||zoomit.ir/images/banners/
+
