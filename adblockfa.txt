@@ -1,10 +1,15 @@
-
-! Advert blocking filters list for Farsi sites
+[Adblock Plus 2.0]
+! Checksum: qLn04D24DFO7VA2UXfaUng
+! Version: 151211
+! Title: AdBlockFarsi
 ! Last modified: Fri Dec 11 14:23:43 IRST 2015
+! Expires: 7 days (update frequency)
+! Homepage: http://kadkhodaei.ir/
 ! License: The Beer-Ware License (The Ab-Havij-Ware License)
+!
 ! Please report any unblocked adverts or problems via e-mail (arash.kadkhodaei@gmail.com).
 ! You can also help me to improve it with git! -where? -http://j.mp/abfarsi
-
+!
 !---------------------------Third-party and Popup advertisers---------------------------!
 ||21bux.ir^$third-party,popup
 ||ad2ad.ir^$third-party
@@ -75,8 +80,9 @@
 ||yasell.biz^$third-party,popup
 ||yekbux.com^$third-party,popup
 ||zigzig.ir^$third-party
-
+!
 !-----------------------General advert blocking filters-----------------------!
+!
 ###ad-box
 ###addver
 ###addver1
@@ -262,8 +268,10 @@
 ##.topads2
 ##.topbanners-body
 ##.txt_adv_content
+##.ul-ads
 ##img[alt="ads"]
-##img[alt="تبلیغات"]
+##img[alt="ØªØ¨Ø§Ø¯Ù„ Ù„ÛŒÙ†Ú©"]
+##img[alt="ØªØ¨Ù„ÛŒØºØ§Øª"]
 Ads^
 Adver^
 SiteAdvert^
@@ -287,19 +295,23 @@ tabligh^
 tablighat^
 tabliq^
 tablligh^
-
+!
 !----------------------Specific advert blocking filters-----------------------!
+!
 asandl.com##.text-asan
 download.ir##.content-top-ads-box
 downloadha.com##.entry-etc
+elmefarda.com##.underpost
 ilna.ir###sticker
 ilna.ir##.zxcList
 itresan.com##.wp-image-6848
 khabarpu.com##.txtads-whitebck
 mihandownload.com##.fix
 mihandownload.com##.links-block
+niksalehi.com##.div_banner
 shahrekhabar.com##body > table:nth-of-type(1)
 soft98.ir###left > .banners
+up.ghalebgraph.ir/up/galebgraph/*.gif
 worldit.ir###content > .postad
 zoomit.ir###rt-maintopcontent
 ||1admin.ir/wp-content/uploads/*300x250.jpg
@@ -533,4 +545,3 @@ zoomit.ir###rt-maintopcontent
 ||zoomit.ir//images/banners/
 ||zoomit.ir/images/*.GIF
 ||zoomit.ir/images/banners/
-
