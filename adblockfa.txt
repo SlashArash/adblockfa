@@ -1,19 +1,22 @@
 [Adblock Plus 2.0]
-! Checksum: qLn04D24DFO7VA2UXfaUng
-! Version: 151211
+! Checksum: AKuk4M7CjidM2iXnZbUucQ
+! Version: 151220
 ! Title: AdBlockFarsi
-! Last modified: Fri Dec 11 14:23:43 IRST 2015
+! Last modified: Sat Dec 20 21:10:06 IRST 2015
 ! Expires: 7 days (update frequency)
-! Homepage: http://kadkhodaei.ir/
+! Homepage: https://gitlab.com/SlashArash/adblockfa
 ! License: The Beer-Ware License (The Ab-Havij-Ware License)
 !
 ! Please report any unblocked adverts or problems via e-mail (arash.kadkhodaei@gmail.com).
 ! You can also help me to improve it with git! -where? -http://j.mp/abfarsi
 !
 !---------------------------Third-party and Popup advertisers---------------------------!
+!
 ||21bux.ir^$third-party,popup
 ||ad2ad.ir^$third-party
+||adcash.com^$third-party,popup
 ||adnegah.net^$third-party
+||adplxmd.com^$third-party,popup
 ||adsgozar.com^$third-party
 ||adsptcbux.com^$third-party,popup
 ||adsready.com^$third-party
@@ -27,6 +30,7 @@
 ||buxirani.com^$third-party,popup
 ||clickyab.com^$third-party
 ||davedbux.ir^$third-party,popup
+||directrev.com^$third-party,popup
 ||facenama.com^$third-party
 ||fastclick.co^$third-party
 ||freepop.ir^$third-party,popup
@@ -83,7 +87,9 @@
 !
 !-----------------------General advert blocking filters-----------------------!
 !
+###Topadver
 ###ad-box
+###adbox
 ###addver
 ###addver1
 ###addver2
@@ -106,10 +112,15 @@
 ###ads_bottom1
 ###ads_bottom2
 ###ads_bottom3
+###ads_left
+###ads_right
+###ads_top
 ###adsarea
 ###adsbanner
+###adsblock
 ###adsbottom
 ###adsbox
+###adsclose
 ###adsdiv
 ###adsleft
 ###adsright
@@ -139,6 +150,7 @@
 ###adz
 ###agahi
 ###banner
+###floating-ad
 ###home_adv
 ###skinak_ads_bottom_right_125
 ###tabligh
@@ -160,24 +172,32 @@
 ###topads1
 ###topads2
 ###txt_adv_content
+##.Ads
+##.TopAds
 ##.ad-box
+##.ad-item
+##.ad_top
 ##.adblock
+##.adbox
 ##.addver
 ##.addver1
 ##.addver2
 ##.addver3
+##.ads
 ##.ads-1
 ##.ads-area
 ##.ads-banner
 ##.ads-block
 ##.ads-bottom
 ##.ads-box
+##.ads-boxes
 ##.ads-content
 ##.ads-footer
 ##.ads-item
 ##.ads-left
 ##.ads-main
 ##.ads-post
+##.ads-right
 ##.ads-section
 ##.ads-side
 ##.ads-sidebar
@@ -189,12 +209,13 @@
 ##.ads-tops
 ##.ads-widget
 ##.ads.box
-##.ads.sidebar-box
 ##.ads1
+##.ads2
 ##.ads6
 ##.ads_area
 ##.ads_article
 ##.ads_banner
+##.ads_body
 ##.ads_bottom
 ##.ads_bottom1
 ##.ads_bottom2
@@ -208,9 +229,12 @@
 ##.ads_post
 ##.ads_right
 ##.ads_side
+##.ads_top
 ##.adsarea
 ##.adsbanner
+##.adsblock
 ##.adsbox
+##.adss
 ##.adv
 ##.adv-banner
 ##.adv-block
@@ -222,8 +246,11 @@
 ##.adv-right
 ##.adv-top
 ##.adv_col
+##.adv_l
 ##.adver
 ##.adver-top
+##.adver1
+##.adver2
 ##.advert-banner
 ##.advert-banner-wrap
 ##.advert-block
@@ -236,12 +263,18 @@
 ##.adwidg
 ##.adz
 ##.agahi
+##.banads
 ##.banner
 ##.bannergroup
+##.div_banner
 ##.firstV_Message
+##.header-ads
 ##.home_adv
 ##.img-ads-center
+##.leftads
+##.mainbannerads
 ##.popup_link
+##.postad
 ##.sidebaradbox
 ##.tabligh
 ##.tabligh-bottom
@@ -249,6 +282,7 @@
 ##.tabligh-left
 ##.tabligh-right
 ##.tabligh-top
+##.tabligh-widget
 ##.tablighat
 ##.tablighatmain
 ##.tabliq
@@ -262,24 +296,28 @@
 ##.textads2
 ##.textads3
 ##.top-ads
+##.top-adv
 ##.top_ads
 ##.topads
 ##.topads1
 ##.topads2
+##.topadvers
 ##.topbanners-body
 ##.txt_adv_content
+##.txtads
 ##.ul-ads
 ##img[alt="ads"]
-##img[alt="ØªØ¨Ø§Ø¯Ù„ Ù„ÛŒÙ†Ú©"]
-##img[alt="ØªØ¨Ù„ÛŒØºØ§Øª"]
-Ads^
 Adver^
-SiteAdvert^
-^ads^
+Image/Ads/
+SiteAdvert/
+Upload/Banner/
+Uploaded/Ads/
 adimg^
+ads-image^
 ads-pic^
-adsbox^
-adsurls^
+adsImage/
+adsbox/
+adsurls/
 adv^
 advertise^
 advertisement^
@@ -288,13 +326,19 @@ advertising^
 advertisment^
 adverts^
 agahi^
-hemayat^
-myads^
-siteads^
+content/ads/
+files/ads/
+hemayat/
+images/ads/
+images/banners/
+media/ads/
+myads/
+siteads/
 tabligh^
 tablighat^
 tabliq^
 tablligh^
+uploads/ads/
 !
 !----------------------Specific advert blocking filters-----------------------!
 !
@@ -302,6 +346,8 @@ asandl.com##.text-asan
 download.ir##.content-top-ads-box
 downloadha.com##.entry-etc
 elmefarda.com##.underpost
+fararu.com##.txt_adv_content
+hidoctor.ir##.adsht
 ilna.ir###sticker
 ilna.ir##.zxcList
 itresan.com##.wp-image-6848
@@ -310,6 +356,7 @@ mihandownload.com##.fix
 mihandownload.com##.links-block
 niksalehi.com##.div_banner
 shahrekhabar.com##body > table:nth-of-type(1)
+smusic.ir###top-ads-right
 soft98.ir###left > .banners
 up.ghalebgraph.ir/up/galebgraph/*.gif
 worldit.ir###content > .postad
@@ -330,6 +377,7 @@ zoomit.ir###rt-maintopcontent
 ||ads.papnews.ir/
 ||ads.rozblog.com/image.php
 ||ads.rzb.ir/
+||ads.seemorgh.com/ads/
 ||afkarnews.ir/serve/
 ||aftabir.com/campaigns/adv_images/
 ||akairan.com/images/banners/
@@ -362,6 +410,7 @@ zoomit.ir###rt-maintopcontent
 ||daneshju.ir/banners/94/*.gif
 ||dehvand.ir/wp-content/themes/job-dehvand/banner/*
 ||digiato.com/wp-content/uploads/*.gif
+||digiboy.ir/wp-content/themes/itblogs/DiGiADs/
 ||digionline.ir/Objects/
 ||donya-e-eqtesad.com/banner/
 ||donya-e-eqtesad.com/images/banners/
@@ -377,6 +426,7 @@ zoomit.ir###rt-maintopcontent
 ||emalls.ir/files/ad/
 ||eranico.com/banners/
 ||esfahan.irannsr.org/*/banner/
+||estekhdami.org/images/archive/
 ||estekhtam.com/wp-content/uploads/*.gif
 ||farhangnews.ir/sites/default/files/banner/
 ||farnet.ir/*.gif
@@ -413,6 +463,7 @@ zoomit.ir###rt-maintopcontent
 ||images.khabarsport.com/system/menus/
 ||iran-tejarat.com/images/banners/
 ||iranecar.com/Media/Default/HtmlWidget/Contents/Item/
+||iranestekhdam.ir/upir/
 ||iranjib.ir/uploads/*.gif
 ||irannaz.com/ax/
 ||iransetup.com/Images/*Banner
@@ -461,12 +512,14 @@ zoomit.ir###rt-maintopcontent
 ||new4android.ir/*.gif
 ||new4android.ir/wp-content/uploads/*.gif
 ||nex1music.ir/banner/
+||nex1music.ir/bnr/
 ||nextfilm.ir/img/*.gif
 ||niazerooz.com/Im/B/
 ||nicedownload.ir/wp-content/uploads/*.gif
 ||nicmusic.org/nicmusic/*.gif
 ||niksalehi.com/ads*
 ||niksalehi.com/test.php
+||niniweblog.com/ads/
 ||noandishaan.com/images/*.gif
 ||nowaroos.com/images/Adver/
 ||onescript.ir/wp-content/uploads/*.gif
@@ -479,6 +532,7 @@ zoomit.ir###rt-maintopcontent
 ||parsegard.com/sites/default/files/*.gif
 ||parsfootball.com/files/banners/
 ||parsish.com/*/*.gif
+||parsnaz.ir/ads/
 ||payaneh.ir/fa/images/*.gif
 ||payaneh.ir/fa/images/*.swf
 ||pedal.ir/wp-content/uploads/*.gif
@@ -488,6 +542,7 @@ zoomit.ir###rt-maintopcontent
 ||persianv.com/ads*
 ||persianv.com/test.php
 ||phpnema.com/banner*
+||pic.beautyhome.ir/*.gif
 ||pishkhaan.net/pishkhaanads/
 ||plus.ir/adsImage/
 ||pnuna.com/wp-content/uploads/*.gif
@@ -502,6 +557,7 @@ zoomit.ir###rt-maintopcontent
 ||saat24.com/d/*/0/
 ||sakhtafzarmag.com/images/banners/
 ||salamatnews.com/uploads/ad*
+||sarzamindownload.com/images/banners/
 ||sarzamindownload.com/images/banners/customers/
 ||shabakeh-mag.com/sites/default/files/*/ad/
 ||shahrekhabar.com/swf/
@@ -510,6 +566,7 @@ zoomit.ir###rt-maintopcontent
 ||skinak.ir/up/skinak/upload/*.gif
 ||smusic.ir/*.gif
 ||smusic.ir/*940.jpg
+||snn.ir/ads/
 ||snn.ir/content/images/*.gif
 ||soft98.ir/*.gif
 ||softgozar.com/Image/SiteAde/
@@ -545,3 +602,4 @@ zoomit.ir###rt-maintopcontent
 ||zoomit.ir//images/banners/
 ||zoomit.ir/images/*.GIF
 ||zoomit.ir/images/banners/
+
