@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: AKuk4M7CjidM2iXnZbUucQ
-! Version: 151220
+! Checksum: tGwz24sHOYK4+edLBv9sDA
+! Version: 151223
 ! Title: AdBlockFarsi
-! Last modified: Sat Dec 20 21:10:06 IRST 2015
-! Expires: 7 days (update frequency)
+! Last modified: Sat Dec 23 12:03:50 IRST 2015
+! Expires: 4 days (update frequency)
 ! Homepage: https://gitlab.com/SlashArash/adblockfa
 ! License: The Beer-Ware License (The Ab-Havij-Ware License)
 !
@@ -30,6 +30,7 @@
 ||buxirani.com^$third-party,popup
 ||clickyab.com^$third-party
 ||davedbux.ir^$third-party,popup
+||digikala.com^$third-party,popup
 ||directrev.com^$third-party,popup
 ||facenama.com^$third-party
 ||fastclick.co^$third-party
@@ -175,6 +176,7 @@
 ##.Ads
 ##.TopAds
 ##.ad-box
+##.ad-container
 ##.ad-item
 ##.ad_top
 ##.adblock
@@ -183,7 +185,6 @@
 ##.addver1
 ##.addver2
 ##.addver3
-##.ads
 ##.ads-1
 ##.ads-area
 ##.ads-banner
@@ -261,11 +262,12 @@
 ##.advert-top
 ##.advert-top-banner
 ##.adwidg
-##.adz
 ##.agahi
 ##.banads
 ##.banner
 ##.bannergroup
+##.banneritem
+##.bannertop
 ##.div_banner
 ##.firstV_Message
 ##.header-ads
@@ -306,6 +308,7 @@
 ##.txt_adv_content
 ##.txtads
 ##.ul-ads
+##.wp_bannerize
 ##img[alt="ads"]
 Adver^
 Image/Ads/
@@ -360,6 +363,8 @@ smusic.ir###top-ads-right
 soft98.ir###left > .banners
 up.ghalebgraph.ir/up/galebgraph/*.gif
 worldit.ir###content > .postad
+www.akairan.com###ban44
+www.akairan.com###ban51
 zoomit.ir###rt-maintopcontent
 ||1admin.ir/wp-content/uploads/*300x250.jpg
 ||1pezeshk.com/wp-content/uploads/*.gif
@@ -372,6 +377,7 @@ zoomit.ir###rt-maintopcontent
 ||98ia.com/images/Banner/
 ||ad.utop.ir/b/
 ||adpic.asiatech.ir/
+||ads.akairan.com/
 ||ads.barnameserver.com/
 ||ads.goldiran.ir/
 ||ads.papnews.ir/
@@ -594,6 +600,7 @@ zoomit.ir###rt-maintopcontent
 ||wp-tools.ir/wp-content/uploads/*.gif
 ||wpcity.ir/wp-content/uploads/*.gif
 ||wpland.ir/wp-content/uploads/*.gif
+||www.imarketor.com/wp-i-content/uploads/*.gif
 ||xperian.ir/xperian/wp-content/uploads/*.gif
 ||xscript.ir/*.gif
 ||yasdl.com/wp-content/uploads/*.gif
