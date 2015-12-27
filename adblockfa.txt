@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: tGwz24sHOYK4+edLBv9sDA
-! Version: 151223
+! Checksum: LsR0AXlyLNScNkCb6HIhIQ
+! Version: 151227
 ! Title: AdBlockFarsi
-! Last modified: Sat Dec 23 12:03:50 IRST 2015
+! Last modified: Sun Dec 27 14:34:59 IRST 2015
 ! Expires: 4 days (update frequency)
 ! Homepage: https://gitlab.com/SlashArash/adblockfa
 ! License: The Beer-Ware License (The Ab-Havij-Ware License)
@@ -77,8 +77,6 @@
 ||tabligheirani.com^$third-party
 ||takface.com^$third-party,popup
 ||takshop91.biz^$third-party,popup
-||telegram.me^$third-party,popup
-||telegram.org^$third-party,popup
 ||terraclicks.com^$third-party,popup
 ||toppopup.com^$third-party,popup
 ||webgozar.ir^$third-party
@@ -153,6 +151,7 @@
 ###banner
 ###floating-ad
 ###home_adv
+###popup
 ###skinak_ads_bottom_right_125
 ###tabligh
 ###tabligh-bottom
@@ -208,6 +207,7 @@
 ##.ads-title
 ##.ads-top
 ##.ads-tops
+##.ads-url
 ##.ads-widget
 ##.ads.box
 ##.ads1
@@ -275,6 +275,7 @@
 ##.img-ads-center
 ##.leftads
 ##.mainbannerads
+##.popup
 ##.popup_link
 ##.postad
 ##.sidebaradbox
@@ -334,6 +335,7 @@ files/ads/
 hemayat/
 images/ads/
 images/banners/
+img/ads/
 media/ads/
 myads/
 siteads/
@@ -445,6 +447,7 @@ zoomit.ir###rt-maintopcontent
 ||flashkhor.com/pictures/forosh/
 ||footofan.com/cmsfiles/mainportal/*.gif
 ||footofan.com/cmsfiles/mainportal/*.swf
+||forum.persiantools.com/banners/
 ||freedownload.ir/images/customer/
 ||freescript.ir/wp-content/uploads/*.gif
 ||funpatogh.com/images/*.gif
@@ -494,6 +497,7 @@ zoomit.ir###rt-maintopcontent
 ||khabarpu.com/img/kp2/banner/
 ||khabaru.ir/*.gif
 ||lavdan.com/img/banner/
+||league.ir/images/*.gif
 ||lisna.ir/File/*.swf
 ||lisna.ir/images/pic/*.gif
 ||loxblog.com/ads/
