@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: GMblBco68EPMQKRgCTjtfg
-! Version: 151229
+! Checksum: o0ZYDMRgy7Mw2H5jmrHclA
+! Version: 151231
 ! Title: AdBlockFarsi
-! Last modified: Tue Dec 29 11:04:34 IRST 2015
+! Last modified: Thu Dec 31 12:58:50 IRST 2015
 ! Expires: 4 days (update frequency)
 ! Homepage: https://gitlab.com/SlashArash/adblockfa
 ! License: The Beer-Ware License (The Ab-Havij-Ware License)
@@ -124,6 +124,8 @@
 ###adsleft
 ###adsright
 ###adstop
+###adsx
+###adsxx
 ###adv-left
 ###adv-right
 ###adv-text
@@ -160,7 +162,10 @@
 ###tabligh-right
 ###tabligh-top
 ###tablighat
+###tablighatbottom
+###tablighatleft
 ###tablighatmain
+###tablighattop
 ###tabligheirani_ads_bottom_right_125
 ###tabliq
 ###textads
@@ -216,6 +221,7 @@
 ##.ads1
 ##.ads2
 ##.ads6
+##.ads300
 ##.ads_area
 ##.ads_article
 ##.ads_banner
@@ -275,11 +281,14 @@
 ##.box-ads
 ##.div_banner
 ##.firstV_Message
+##.headbanner
 ##.header-ads
+##.home-ads
 ##.home_adv
 ##.img-ads-center
 ##.leftads
 ##.mainbannerads
+##.mom-ads
 ##.popup_link
 ##.postad
 ##.rightbannerfix
@@ -356,6 +365,7 @@ uploads/ads/
 !
 !----------------------Specific advert blocking filters-----------------------!
 !
+anaj.ir##.bannerPosition
 asandl.com##.text-asan
 download.ir##.content-top-ads-box
 downloadha.com##.entry-etc
@@ -368,14 +378,17 @@ itresan.com##.wp-image-6848
 khabarpu.com##.txtads-whitebck
 mihandownload.com##.fix
 mihandownload.com##.links-block
+mohandeseit.ir##.single-ads-mshow
 niksalehi.com##.div_banner
 shahrekhabar.com##body > table:nth-of-type(1)
 smusic.ir###top-ads-right
 soft98.ir###left > .banners
+trakhtorlink.com###sidebarleft
 up.ghalebgraph.ir/up/galebgraph/*.gif
 worldit.ir###content > .postad
 www.akairan.com###ban44
 www.akairan.com###ban51
+www.trakhtorlink.com###sidebarleft
 zoomit.ir###rt-maintopcontent
 ||1admin.ir/wp-content/uploads/*300x250.jpg
 ||1pezeshk.com/wp-content/uploads/*.gif
@@ -448,6 +461,8 @@ zoomit.ir###rt-maintopcontent
 ||eramdownload.com/audiolib/ads/
 ||eranico.com/banners/
 ||esfahan.irannsr.org/*/banner/
+||esfahanemrooz.ir/ads/
+||esteghlaltehranfc.com/esteghlal_content/media/image/*.gif
 ||estekhdami.org/images/archive/
 ||estekhtam.com/wp-content/uploads/*.gif
 ||faradars.org/ads/
@@ -485,6 +500,7 @@ zoomit.ir###rt-maintopcontent
 ||hastidownload.net/img/*.gif
 ||hidoctor.ir/wp-content/uploads/*.gif
 ||images.khabarsport.com/system/menus/
+||imarketor.com/wp-i-content/uploads/*.gif
 ||iran-tejarat.com/images/banners/
 ||iranecar.com/Media/Default/HtmlWidget/Contents/Item/
 ||iranestekhdam.ir/upir/
@@ -502,6 +518,7 @@ zoomit.ir###rt-maintopcontent
 ||itresan.com/wp-content/uploads/*.gif
 ||jarchi.ir/*.gif
 ||joomlaforum.ir/images/banners/
+||kalakamuz.ir/wp-content/uploads/*.gif
 ||ketabesabz.com/images/banner/
 ||ketabnak.com/images/*.gif
 ||ketabnak.com/images/*.swf
@@ -517,6 +534,7 @@ zoomit.ir###rt-maintopcontent
 ||lisna.ir/File/*.swf
 ||lisna.ir/images/pic/*.gif
 ||loxblog.com/ads/
+||mahsho.com/wp-content/uploads/*.gif
 ||maralhost.com/images/banner/
 ||matlabsite.com/wp-content/uploads/*.gif
 ||mehrnews.com/d/*.gif
@@ -584,6 +602,7 @@ zoomit.ir###rt-maintopcontent
 ||saat24.com/d/*/0/
 ||sakhtafzarmag.com/images/banners/
 ||salamatnews.com/uploads/ad*
+||samenblog.com/ads/
 ||sarzamindownload.com/images/banners/
 ||sarzamindownload.com/images/banners/customers/
 ||shabakeh-mag.com/sites/default/files/*/ad/
@@ -605,6 +624,7 @@ zoomit.ir###rt-maintopcontent
 ||tazeno.ir/wp-content/uploads/*.gif
 ||tehmovies.ir/wp-content/uploads/*.gif
 ||tehrankala.com/images/ban/
+||telegfa.com/upload/explorer/*.gif
 ||tgju.org/images/advertisement/
 ||topnaz.com/wp-content/themes/topnaz_panab/psimgs/ads/
 ||topseda.ir/wp-content/uploads/*.gif
@@ -623,7 +643,6 @@ zoomit.ir###rt-maintopcontent
 ||wp-tools.ir/wp-content/uploads/*.gif
 ||wpcity.ir/wp-content/uploads/*.gif
 ||wpland.ir/wp-content/uploads/*.gif
-||imarketor.com/wp-i-content/uploads/*.gif
 ||xperian.ir/xperian/wp-content/uploads/*.gif
 ||xscript.ir/*.gif
 ||yasdl.com/wp-content/uploads/*.gif
