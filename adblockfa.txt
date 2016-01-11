@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: o0ZYDMRgy7Mw2H5jmrHclA
-! Version: 151231
+! Checksum: LGZwLejtzVFB9kr89Gz9bA
+! Version: 160111
 ! Title: AdBlockFarsi
-! Last modified: Thu Dec 31 12:58:50 IRST 2015
-! Expires: 4 days (update frequency)
+! Last modified: Mon Jan 11 21:37:44 IRST 2016
+! Expires: 7 days (update frequency)
 ! Homepage: https://gitlab.com/SlashArash/adblockfa
 ! License: The Beer-Ware License (The Ab-Havij-Ware License)
 !
@@ -16,8 +16,10 @@
 ||ad2ad.ir^$third-party
 ||adcash.com^$third-party,popup
 ||adnegah.net^$third-party
+||adpersia.com^$third-party
 ||adplxmd.com^$third-party,popup
 ||adsgozar.com^$third-party
+||adsptcbux.com^$third-party
 ||adsptcbux.com^$third-party,popup
 ||adsready.com^$third-party
 ||anetwork.ir^$third-party
@@ -28,33 +30,41 @@
 ||bux1.ir^$third-party,popup
 ||buxi.ir^$third-party,popup
 ||buxirani.com^$third-party,popup
+||buxstar.ir^$third-party
 ||clickyab.com^$third-party
 ||davedbux.ir^$third-party,popup
-||digikala.com^$third-party,popup
+||digikala.com^$third-party
 ||directrev.com^$third-party,popup
 ||facenama.com^$third-party
+||farsbux.ir^$third-party
 ||fastclick.co^$third-party
 ||freepop.ir^$third-party,popup
 ||hitpop.ir^$third-party,popup
 ||ipopup.ir^$third-party,popup
-||iprank.ir^$third-party,popup
+||iprank.ir^$third-party
+||ipsell.ir^$third-party
 ||iranwebads.com^$third-party
+||irbazdid.com^$third-party,popup
 ||irclick.net^$third-party,popup
-||irpopup.ir^$third-party,popup
+||irpopup.ir^$third-party
 ||itgheymat.com^$third-party,popup
 ||jaba.ir^$third-party,popup
 ||janebi.ir^$third-party,popup
+||jaragheirani.ir^$third-party
 ||lordpopup.com^$third-party,popup
-||mitranet.ir^$third-party,popup
+||mahansurf.com^$third-party
+||merita.ir^$third-party
+||mitranet.ir^$third-party
 ||mitrarank.ir^$third-party,popup
 ||netbina.net^$third-party
 ||networksara.com^$third-party,popup
 ||nextads.ir^$third-party
 ||nextpopup.ir^$third-party,popup
 ||onclickads.net^$third-party,popup
-||p30rank.ir^$third-party,popup
+||p30rank.ir^$third-party
 ||pardad.ir^$third-party,popup
 ||paypop.org^$third-party,popup
+||persianrank.ir^$third-party,popup
 ||persianstat.com^$third-party
 ||persianstat.ir^$third-party
 ||pg20.ir^$third-party,popup
@@ -154,6 +164,7 @@
 ###floating-ad
 ###home_adv
 ###popup
+###second_ads
 ###skinak_ads_bottom_right_125
 ###tabligh
 ###tabligh-bottom
@@ -168,6 +179,7 @@
 ###tablighattop
 ###tabligheirani_ads_bottom_right_125
 ###tabliq
+###text-tabliq
 ###textads
 ###textads1
 ###textads2
@@ -222,6 +234,7 @@
 ##.ads2
 ##.ads6
 ##.ads300
+##.adsBar
 ##.ads_area
 ##.ads_article
 ##.ads_banner
@@ -293,7 +306,9 @@
 ##.postad
 ##.rightbannerfix
 ##.side-ads-text
+##.sidebar-textads
 ##.sidebaradbox
+##.special-ads
 ##.tAds
 ##.tabligh
 ##.tabligh-bottom
@@ -329,6 +344,7 @@
 ##.ul-ads
 ##.wp_bannerize
 ##img[alt="ads"]
+.header_ads
 Adver^
 Image/Ads/
 SiteAdvert/
@@ -347,6 +363,7 @@ advertisements^
 advertising^
 advertisment^
 adverts^
+advs/
 agahi^
 content/ads/
 files/ads/
@@ -359,6 +376,7 @@ myads/
 siteads/
 tabligh^
 tablighat^
+tablighpic/
 tabliq^
 tablligh^
 uploads/ads/
@@ -367,6 +385,7 @@ uploads/ads/
 !
 anaj.ir##.bannerPosition
 asandl.com##.text-asan
+ccsp.ir##.bannerin
 download.ir##.content-top-ads-box
 downloadha.com##.entry-etc
 elmefarda.com##.underpost
@@ -388,7 +407,10 @@ up.ghalebgraph.ir/up/galebgraph/*.gif
 worldit.ir###content > .postad
 www.akairan.com###ban44
 www.akairan.com###ban51
+www.gsm.ir##.a_gsm_d
+www.p30day.com###before_post > .adsblockpop
 www.trakhtorlink.com###sidebarleft
+www.vbiran.ir##.vbiran-ads
 zoomit.ir###rt-maintopcontent
 ||1admin.ir/wp-content/uploads/*300x250.jpg
 ||1pezeshk.com/wp-content/uploads/*.gif
@@ -405,6 +427,7 @@ zoomit.ir###rt-maintopcontent
 ||ads.akairan.com/
 ||ads.barnameserver.com/
 ||ads.goldiran.ir/
+||ads.iran-forum.ir/
 ||ads.papnews.ir/
 ||ads.rozblog.com/image.php
 ||ads.rzb.ir/
@@ -431,6 +454,7 @@ zoomit.ir###rt-maintopcontent
 ||barcanews.org/uploads/images/*.gif
 ||bargozideha.com/static/images/banner/
 ||barnamenevis.org/images/banners/
+||barsam.ir/divar/
 ||beytoote.com/images/banners/
 ||beytoote.com/shops/
 ||bia4music.com/*.gif
@@ -477,6 +501,7 @@ zoomit.ir###rt-maintopcontent
 ||flashkhor.com/pictures/forosh/
 ||footofan.com/cmsfiles/mainportal/*.gif
 ||footofan.com/cmsfiles/mainportal/*.swf
+||forum.persianadmins.ir/ads/
 ||forum.persiantools.com/banners/
 ||freedownload.ir/images/customer/
 ||freescript.ir/wp-content/uploads/*.gif
@@ -503,6 +528,7 @@ zoomit.ir###rt-maintopcontent
 ||imarketor.com/wp-i-content/uploads/*.gif
 ||iran-tejarat.com/images/banners/
 ||iranecar.com/Media/Default/HtmlWidget/Contents/Item/
+||iranecona.com/banners/
 ||iranestekhdam.ir/upir/
 ||iranjib.ir/uploads/*.gif
 ||irannaz.com/ax/
@@ -643,6 +669,8 @@ zoomit.ir###rt-maintopcontent
 ||wp-tools.ir/wp-content/uploads/*.gif
 ||wpcity.ir/wp-content/uploads/*.gif
 ||wpland.ir/wp-content/uploads/*.gif
+||www.shopkeeper.ir/images/*.gif
+||www.shopkeeper.ir/images/*.swf
 ||xperian.ir/xperian/wp-content/uploads/*.gif
 ||xscript.ir/*.gif
 ||yasdl.com/wp-content/uploads/*.gif
