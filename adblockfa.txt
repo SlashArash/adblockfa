@@ -1,14 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: LGZwLejtzVFB9kr89Gz9bA
-! Version: 160111
+! Checksum: 5obfs2isAcslzsmcSqFxMQ
+! Version: 160122
 ! Title: AdBlockFarsi
-! Last modified: Mon Jan 11 21:37:44 IRST 2016
-! Expires: 7 days (update frequency)
+! Last modified: Fri Jan 22 12:47:34 IRST 2016
+! Expires: 10 days (update frequency)
 ! Homepage: https://gitlab.com/SlashArash/adblockfa
 ! License: The Beer-Ware License (The Ab-Havij-Ware License)
 !
 ! Please report any unblocked adverts or problems via e-mail (arash.kadkhodaei@gmail.com).
-! You can also help me to improve it with git! -where? -http://j.mp/abfarsi
 !
 !---------------------------Third-party and Popup advertisers---------------------------!
 !
@@ -89,6 +88,7 @@
 ||takshop91.biz^$third-party,popup
 ||terraclicks.com^$third-party,popup
 ||toppopup.com^$third-party,popup
+||utop.ir^$third-party
 ||webgozar.ir^$third-party
 ||yasell.biz^$third-party,popup
 ||yekbux.com^$third-party,popup
@@ -98,6 +98,7 @@
 !
 ###Topadver
 ###ad-box
+###ad_global_below_navbar
 ###adbox
 ###addver
 ###addver1
@@ -161,6 +162,7 @@
 ###adz
 ###agahi
 ###banner
+###first_ads
 ###floating-ad
 ###home_adv
 ###popup
@@ -211,12 +213,14 @@
 ##.ads-bottom
 ##.ads-box
 ##.ads-boxes
+##.ads-chap
 ##.ads-content
 ##.ads-footer
 ##.ads-item
 ##.ads-left
 ##.ads-main
 ##.ads-post
+##.ads-rast
 ##.ads-right
 ##.ads-section
 ##.ads-side
@@ -268,8 +272,10 @@
 ##.adv-p
 ##.adv-right
 ##.adv-top
+##.advWrapper
 ##.adv_col
 ##.adv_l
+##.adv_standard_d
 ##.adver
 ##.adver-top
 ##.adver1
@@ -353,6 +359,7 @@ Uploaded/Ads/
 adimg^
 ads-image^
 ads-pic^
+ads/images/
 adsImage/
 adsbox/
 adsurls/

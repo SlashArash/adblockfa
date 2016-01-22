@@ -18,21 +18,21 @@
 	
 در مرورگر گوگل کروم پس از کلیک روی آیکون افزونه مراحل زیر را طی کنید.
 
-	Options  ->  Filter lists(tab)  ->  Add filter subscription(button)  -> (choos)Add a different subscription(option)  ->  First list location(field) = http://j.mp/fa-adblock ->  Add(button)
+	Options  ->  Filter lists(tab)  ->  Add filter subscription(button)  -> (choose)Add a different subscription(option)  ->  First list location(field) = http://j.mp/abirani ->  Add(button)
 
 برای استفاده در یوبلاک اوریجین در هر دو مرورگر پس از کلیک روی آیکون افزونه باید روی نام افزونه در بالای پنجره باز شده کلیک کنید تا صفحه تنظیمات افزونه باز شود سپس مراحل زیر را طی کنید.
 
-	3rd-party filters  ->  (at end of the page on textbox)  ->  (write)http://j.mp/fa-adblock -> Parse(button) -> Apply changes(button)
+	3rd-party filters  ->  (at end of the page on textbox)  ->  (write)http://j.mp/abirani -> Parse(button) -> Apply changes(button)
 
 
 ## طریقه استفاده به صورت آپدیت دستی:
 برای استفاده در ادبلاک پلاس با دو نوع تنظیمات روبرو خواهیم شد.
 
-در مرورگر فایرفاکس لیست را از [ادبلاک فارسی](http://j.mp/fa-adblock) کپی کنید و کافیست پس از کلیک روی آیکون افزونه مراحل زیر را طی کنید.
+در مرورگر فایرفاکس لیست را از [ادبلاک فارسی](http://j.mp/abirani) کپی کنید و کافیست پس از کلیک روی آیکون افزونه مراحل زیر را طی کنید.
 
 	Filter preferences  ->  Custom filter(tab)  ->  Add filter group(button)  ->  Add filter(button) -> CTRL+V
 	
-در مرورگر گوگل کروم لیست را از [ادبلاک فارسی](http://j.mp/fa-adblock) کپی کنید و کافیست پس از کلیک روی آیکون افزونه مراحل زیر را طی کنید.
+در مرورگر گوگل کروم لیست را از [ادبلاک فارسی](http://j.mp/abirani) کپی کنید و کافیست پس از کلیک روی آیکون افزونه مراحل زیر را طی کنید.
 
 	Options  ->  Add your own filters(tab)  ->  CTRL+V  -> Add filter(button)
 
