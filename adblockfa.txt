@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 5obfs2isAcslzsmcSqFxMQ
-! Version: 160122
+! Checksum: YxBC2xOLXETMa92X6XCk7g
+! Version: 160130
 ! Title: AdBlockFarsi
-! Last modified: Fri Jan 22 12:47:34 IRST 2016
+! Last modified: Sat Jan 30 21:04:21 IRST 2016
 ! Expires: 10 days (update frequency)
 ! Homepage: https://gitlab.com/SlashArash/adblockfa
 ! License: The Beer-Ware License (The Ab-Havij-Ware License)
@@ -39,6 +39,7 @@
 ||fastclick.co^$third-party
 ||freepop.ir^$third-party,popup
 ||hitpop.ir^$third-party,popup
+||impressions.ir^$third-party
 ||ipopup.ir^$third-party,popup
 ||iprank.ir^$third-party
 ||ipsell.ir^$third-party
@@ -99,6 +100,7 @@
 ###Topadver
 ###ad-box
 ###ad_global_below_navbar
+###ad_main
 ###adbox
 ###addver
 ###addver1
@@ -237,6 +239,7 @@
 ##.ads1
 ##.ads2
 ##.ads6
+##.ads120
 ##.ads300
 ##.adsBar
 ##.ads_area
@@ -315,6 +318,7 @@
 ##.sidebar-textads
 ##.sidebaradbox
 ##.special-ads
+##.sponsorshipbox
 ##.tAds
 ##.tabligh
 ##.tabligh-bottom
@@ -359,6 +363,7 @@ Uploaded/Ads/
 adimg^
 ads-image^
 ads-pic^
+ads/banner/
 ads/images/
 adsImage/
 adsbox/
@@ -401,6 +406,7 @@ hidoctor.ir##.adsht
 ilna.ir###sticker
 ilna.ir##.zxcList
 itresan.com##.wp-image-6848
+kafemarketing.com##.bigAd
 khabarpu.com##.txtads-whitebck
 mihandownload.com##.fix
 mihandownload.com##.links-block
