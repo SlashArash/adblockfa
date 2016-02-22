@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: YxBC2xOLXETMa92X6XCk7g
-! Version: 160130
+! Checksum: z2h5QHZLjMUbFMLSbftPFw
+! Version: 160222
 ! Title: AdBlockFarsi
-! Last modified: Sat Jan 30 21:04:21 IRST 2016
+! Last modified: Mon Feb 22 14:52:47 IRST 2016
 ! Expires: 10 days (update frequency)
 ! Homepage: https://gitlab.com/SlashArash/adblockfa
 ! License: The Beer-Ware License (The Ab-Havij-Ware License)
@@ -21,6 +21,7 @@
 ||adsptcbux.com^$third-party
 ||adsptcbux.com^$third-party,popup
 ||adsready.com^$third-party
+||adtube.ir^$third-party
 ||anetwork.ir^$third-party
 ||apanet.net^$third-party
 ||ariyabux.ir^$third-party,popup
@@ -57,6 +58,7 @@
 ||mitranet.ir^$third-party
 ||mitrarank.ir^$third-party,popup
 ||netbina.net^$third-party
+||netstart.ir^$third-party
 ||networksara.com^$third-party,popup
 ||nextads.ir^$third-party
 ||nextpopup.ir^$third-party,popup
@@ -75,7 +77,7 @@
 ||popup.smusic.ir^$third-party,popup
 ||popup94.ir^$third-party,popup
 ||popupads.ir^$third-party,popup
-||popupearn.com^$third-party,popup
+||popupearn.com^$third-party||popupearn.com^$third-party,popup
 ||popuper.com^$third-party,popup
 ||popupha.com^$third-party,popup
 ||popupplus.ir^$third-party,popup
@@ -264,6 +266,7 @@
 ##.adsbanner
 ##.adsblock
 ##.adsbox
+##.adsimg
 ##.adss
 ##.adv
 ##.adv-banner
@@ -305,6 +308,7 @@
 ##.firstV_Message
 ##.headbanner
 ##.header-ads
+##.headerads
 ##.home-ads
 ##.home_adv
 ##.img-ads-center
@@ -395,6 +399,7 @@ uploads/ads/
 !
 !----------------------Specific advert blocking filters-----------------------!
 !
+1pezeshk.com###mid_header > .wrapper > .wide_ad
 anaj.ir##.bannerPosition
 asandl.com##.text-asan
 ccsp.ir##.bannerin
@@ -420,8 +425,9 @@ up.ghalebgraph.ir/up/galebgraph/*.gif
 worldit.ir###content > .postad
 www.akairan.com###ban44
 www.akairan.com###ban51
-www.gsm.ir##.a_gsm_d
+www.farsnews.com##embedwww.gsm.ir##.a_gsm_d
 www.p30day.com###before_post > .adsblockpop
+www.sourcebaran.com##.container-fluid.ads
 www.trakhtorlink.com###sidebarleft
 www.vbiran.ir##.vbiran-ads
 zoomit.ir###rt-maintopcontent
@@ -473,6 +479,7 @@ zoomit.ir###rt-maintopcontent
 ||bia4music.com/*.gif
 ||bigtheme.ir/wp-content/uploads/*.gif
 ||bistscript.ir/banner/*.gif
+||blogers.ir/ads/
 ||blogfa.com/ads/banners/
 ||boursepress.ir/img/banners/
 ||c21.ir/niazpardaz.com/banner/
@@ -508,6 +515,7 @@ zoomit.ir###rt-maintopcontent
 ||farskids*.com/wp-content/uploads/*.gif
 ||farsnews.com/Banner/MainPage/Left/
 ||farsroid.com/file/*.gif
+||fbm.ptcdn.ir/banners/
 ||fbm.ptcdn.org/banners/
 ||fibazar.ir/uploads/ad_*.gif
 ||files.namnak.com/users/shop/*
@@ -592,6 +600,7 @@ zoomit.ir###rt-maintopcontent
 ||momtaznews.com/images/*.gif
 ||mozando.com/cms/images/banner/promotion/
 ||musicbaran*.org/Single/*.gif
+||my-bb.ir/ads/
 ||namnak.papnews.ir/namnak/N1.html
 ||new4android.ir/*.gif
 ||new4android.ir/wp-content/uploads/*.gif
