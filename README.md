@@ -14,7 +14,7 @@
 
 در مرورگر فایرفاکس پس از کلیک روی آیکون افزونه مراحل زیر را طی کنید.
 
-	Filter preferences  ->  Add filter subscription(button)  ->  Add a different subscription(link)  ->  First list location(field) = http://j.mp/fa-adblock ->  Add subscription(button)
+	Filter preferences  ->  Add filter subscription(button)  ->  Add a different subscription(link)  ->  First list location(field) = http://j.mp/abirani ->  Add subscription(button)
 	
 در مرورگر گوگل کروم پس از کلیک روی آیکون افزونه مراحل زیر را طی کنید.
 
@@ -45,10 +45,6 @@
 بهترین راه ارتباطی با من ایمیل هست.
 
 arash.kadkhodaei@gmail.com
-	
-اگر سایت شخصی من راه‌اندازی بشود احتمالا فرم تماس خواهد داشت!
-
-[http://kadkhodaei.ir](http://kadkhodaei.ir)
 
 در شبکه‌های اجتماعی معمولا من شناسه ثابتی دارم که در زیر هست.
 
