@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Checksum: z2h5QHZLjMUbFMLSbftPFw
+! Checksum: yRRQS2gDjiZg0hG3WqEOnQ
 ! Version: 160222
 ! Title: AdBlockFarsi
-! Last modified: Mon Feb 22 14:52:47 IRST 2016
-! Expires: 10 days (update frequency)
-! Homepage: https://gitlab.com/SlashArash/adblockfa
+! Last modified: Wed Feb  8 16:50:57 IRST 2017
+! Expires: 30 days (update frequency)
+! Homepage: https://github.com/SlashArash/adblockfa
 ! License: The Beer-Ware License (The Ab-Havij-Ware License)
 !
-! Please report any unblocked adverts or problems via e-mail (arash.kadkhodaei@gmail.com).
+! Please report any unblocked adverts or problems via e-mail (slasharash@protonmail.com).
 !
 !---------------------------Third-party and Popup advertisers---------------------------!
 !
@@ -37,6 +37,7 @@
 ||directrev.com^$third-party,popup
 ||facenama.com^$third-party
 ||farsbux.ir^$third-party
+||fastclick.click^$third-party
 ||fastclick.co^$third-party
 ||freepop.ir^$third-party,popup
 ||hitpop.ir^$third-party,popup
@@ -416,7 +417,6 @@ khabarpu.com##.txtads-whitebck
 mihandownload.com##.fix
 mihandownload.com##.links-block
 mohandeseit.ir##.single-ads-mshow
-niksalehi.com##.div_banner
 shahrekhabar.com##body > table:nth-of-type(1)
 smusic.ir###top-ads-right
 soft98.ir###left > .banners
@@ -426,6 +426,8 @@ worldit.ir###content > .postad
 www.akairan.com###ban44
 www.akairan.com###ban51
 www.farsnews.com##embedwww.gsm.ir##.a_gsm_d
+www.niksalehi.com##.banner_content_footer
+www.niksalehi.com##.banner_sid_desktop
 www.p30day.com###before_post > .adsblockpop
 www.sourcebaran.com##.container-fluid.ads
 www.trakhtorlink.com###sidebarleft
@@ -611,7 +613,6 @@ zoomit.ir###rt-maintopcontent
 ||nicedownload.ir/wp-content/uploads/*.gif
 ||nicmusic.org/nicmusic/*.gif
 ||niksalehi.com/ads*
-||niksalehi.com/test.php
 ||niniweblog.com/ads/
 ||noandishaan.com/images/*.gif
 ||nowaroos.com/images/Adver/
@@ -691,6 +692,7 @@ zoomit.ir###rt-maintopcontent
 ||wp-tools.ir/wp-content/uploads/*.gif
 ||wpcity.ir/wp-content/uploads/*.gif
 ||wpland.ir/wp-content/uploads/*.gif
+||www.cinematicket.org/images/a-d/$image
 ||www.shopkeeper.ir/images/*.gif
 ||www.shopkeeper.ir/images/*.swf
 ||xperian.ir/xperian/wp-content/uploads/*.gif
