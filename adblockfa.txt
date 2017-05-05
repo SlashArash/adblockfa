@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: yRRQS2gDjiZg0hG3WqEOnQ
-! Version: 160222
+! Checksum: qUSReMm+gSG5uvPgry4gpQ
+! Version: 170505
 ! Title: AdBlockFarsi
-! Last modified: Wed Feb  8 16:50:57 IRST 2017
+! Last modified: Fri May  5 10:41:03 IRDT 2017
 ! Expires: 30 days (update frequency)
 ! Homepage: https://github.com/SlashArash/adblockfa
 ! License: The Beer-Ware License (The Ab-Havij-Ware License)
@@ -32,6 +32,7 @@
 ||buxirani.com^$third-party,popup
 ||buxstar.ir^$third-party
 ||clickyab.com^$third-party
+||clix.ir^$third-party
 ||davedbux.ir^$third-party,popup
 ||digikala.com^$third-party
 ||directrev.com^$third-party,popup
@@ -96,6 +97,7 @@
 ||webgozar.ir^$third-party
 ||yasell.biz^$third-party,popup
 ||yekbux.com^$third-party,popup
+||zanboor.net^$third-party
 ||zigzig.ir^$third-party
 !
 !-----------------------General advert blocking filters-----------------------!
@@ -401,7 +403,9 @@ uploads/ads/
 !----------------------Specific advert blocking filters-----------------------!
 !
 1pezeshk.com###mid_header > .wrapper > .wide_ad
+30nama.in###banner-header
 anaj.ir##.bannerPosition
+arsenal.ir##.ads_1
 asandl.com##.text-asan
 ccsp.ir##.bannerin
 download.ir##.content-top-ads-box
@@ -411,12 +415,15 @@ fararu.com##.txt_adv_content
 hidoctor.ir##.adsht
 ilna.ir###sticker
 ilna.ir##.zxcList
+isport.ir##.iTablighitem
 itresan.com##.wp-image-6848
 kafemarketing.com##.bigAd
 khabarpu.com##.txtads-whitebck
 mihandownload.com##.fix
 mihandownload.com##.links-block
 mohandeseit.ir##.single-ads-mshow
+ofoghnews.ir###advertises
+pooldarsho.ir##.advertisement-content
 shahrekhabar.com##body > table:nth-of-type(1)
 smusic.ir###top-ads-right
 soft98.ir###left > .banners
@@ -425,11 +432,18 @@ up.ghalebgraph.ir/up/galebgraph/*.gif
 worldit.ir###content > .postad
 www.akairan.com###ban44
 www.akairan.com###ban51
+www.elmefarda.com##.ads
 www.farsnews.com##embedwww.gsm.ir##.a_gsm_d
+www.hamshahrionline.ir##.advContainer
+www.mashreghnews.ir###box30
+www.mashreghnews.ir###box59
+www.mashreghnews.ir###box60
 www.niksalehi.com##.banner_content_footer
 www.niksalehi.com##.banner_sid_desktop
 www.p30day.com###before_post > .adsblockpop
+www.rond.ir##.banner-box
 www.sourcebaran.com##.container-fluid.ads
+www.tottenhamhotspur.ir##.e3lan
 www.trakhtorlink.com###sidebarleft
 www.vbiran.ir##.vbiran-ads
 zoomit.ir###rt-maintopcontent
@@ -475,6 +489,7 @@ zoomit.ir###rt-maintopcontent
 ||barcanews.org/uploads/images/*.gif
 ||bargozideha.com/static/images/banner/
 ||barnamenevis.org/images/banners/
+||barsam.ir/ads/
 ||barsam.ir/divar/
 ||beytoote.com/images/banners/
 ||beytoote.com/shops/
@@ -534,7 +549,7 @@ zoomit.ir###rt-maintopcontent
 ||gharreh.com/files/uploads/*.gif
 ||gharreh.com/images/*.gif
 ||ghatreh.com/ads/
-||gooyait.com/images/*.swf
+||giahyab.com/ads/||gooyait.com/images/*.swf
 ||gooyait.com/uploads/*.gif
 ||graphiran.com/wp-content/uploads/*.gif
 ||gsm.ir/Repository/flash/
@@ -553,6 +568,7 @@ zoomit.ir###rt-maintopcontent
 ||iranecar.com/Media/Default/HtmlWidget/Contents/Item/
 ||iranecona.com/banners/
 ||iranestekhdam.ir/upir/
+||iranhall.com/ads/
 ||iranjib.ir/uploads/*.gif
 ||irannaz.com/ax/
 ||iransetup.com/Images/*Banner
@@ -643,6 +659,7 @@ zoomit.ir###rt-maintopcontent
 ||pnunews.com/*.gif
 ||pnunews.net/wp-content/uploads/*.gif
 ||pop-music.ir/aks/
+||rahyabnetwork.com/banner/
 ||rajanews.com/sites/default/files/superadmin/
 ||reshteyab.ir/*.gif
 ||rokesh.ir/wp-content/uploads/*/*banner.*
@@ -678,12 +695,14 @@ zoomit.ir###rt-maintopcontent
 ||topnaz.com/wp-content/themes/topnaz_panab/psimgs/ads/
 ||topseda.ir/wp-content/uploads/*.gif
 ||toranji.ir/wp-content/uploads/*.gif
+||trainbit.com/adviews
 ||unp.ir/*.gif
 ||up.facenama.com/file/*.gif
 ||up.skinak.ir/view/*.gif
 ||uploadboy.com/banner/
 ||vakonesh.com/wp-content/uploads/*.gif
 ||vista.ir/banners/
+||vista.ir/js/popnews.js
 ||webgoo.ir/ads/
 ||wikinaz.ir/wp-content/uploads/*.gif
 ||windowscenter.ir/wp-content/uploads/*.gif
@@ -693,8 +712,11 @@ zoomit.ir###rt-maintopcontent
 ||wpcity.ir/wp-content/uploads/*.gif
 ||wpland.ir/wp-content/uploads/*.gif
 ||www.cinematicket.org/images/a-d/$image
+||www.iranhall.com/ads/
+||www.magiran.com/ads/
 ||www.shopkeeper.ir/images/*.gif
 ||www.shopkeeper.ir/images/*.swf
+||www.webhostingtalk.ir/ads/
 ||xperian.ir/xperian/wp-content/uploads/*.gif
 ||xscript.ir/*.gif
 ||yasdl.com/wp-content/uploads/*.gif
