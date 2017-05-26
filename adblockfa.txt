@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: qUSReMm+gSG5uvPgry4gpQ
-! Version: 170505
+! Checksum: v+HYYAE2DK/m1/DE8HlcTA
+! Version: 170526
 ! Title: AdBlockFarsi
-! Last modified: Fri May  5 10:41:03 IRDT 2017
+! Last modified: Fri May 26 12:19:47 IRDT 2017
 ! Expires: 30 days (update frequency)
 ! Homepage: https://github.com/SlashArash/adblockfa
 ! License: The Beer-Ware License (The Ab-Havij-Ware License)
@@ -22,9 +22,11 @@
 ||adsptcbux.com^$third-party,popup
 ||adsready.com^$third-party
 ||adtube.ir^$third-party
+||alipopup.ir^$third-party,popup
 ||anetwork.ir^$third-party
 ||apanet.net^$third-party
 ||ariyabux.ir^$third-party,popup
+||as-popup.ir^$third-party,popup
 ||asandl.com^$third-party
 ||baharbux.ir^$third-party,popup
 ||bux1.ir^$third-party,popup
@@ -56,6 +58,7 @@
 ||jaragheirani.ir^$third-party
 ||lordpopup.com^$third-party,popup
 ||mahansurf.com^$third-party
+||maxpopup.ir^$third-party,popup
 ||merita.ir^$third-party
 ||mitranet.ir^$third-party
 ||mitrarank.ir^$third-party,popup
@@ -72,16 +75,18 @@
 ||persianstat.com^$third-party
 ||persianstat.ir^$third-party
 ||pg20.ir^$third-party,popup
+||popgozar.ir^$third-party,popup
 ||popkade.ir^$third-party,popup
 ||popmaster.ir^$third-party,popup
 ||poppop.ir^$third-party,popup
 ||poprush.net^$third-party,popup
 ||popup.smusic.ir^$third-party,popup
 ||popup94.ir^$third-party,popup
-||popupads.ir^$third-party,popup
+||popupads.ir^$third-party,popup||popupads.ir^$third-party,popup
 ||popupearn.com^$third-party||popupearn.com^$third-party,popup
 ||popuper.com^$third-party,popup
 ||popupha.com^$third-party,popup
+||popupirani.ir^$third-party,popup
 ||popupplus.ir^$third-party,popup
 ||popupsky.ir^$third-party,popup
 ||rdsa2012.com^$third-party,popup
