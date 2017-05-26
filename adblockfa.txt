@@ -82,8 +82,8 @@
 ||poprush.net^$third-party,popup
 ||popup.smusic.ir^$third-party,popup
 ||popup94.ir^$third-party,popup
-||popupads.ir^$third-party,popup||popupads.ir^$third-party,popup
-||popupearn.com^$third-party||popupearn.com^$third-party,popup
+||popupads.ir^$third-party,popup
+||popupearn.com^$third-party
 ||popuper.com^$third-party,popup
 ||popupha.com^$third-party,popup
 ||popupirani.ir^$third-party,popup
