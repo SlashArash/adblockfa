@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Checksum: v+HYYAE2DK/m1/DE8HlcTA
-! Version: 170526
+! Version: 170604
 ! Title: AdBlockFarsi
-! Last modified: Fri May 26 12:19:47 IRDT 2017
-! Expires: 30 days (update frequency)
+! Last modified: Sun Jun  4 11:34:00 IRDT 2017
+! Expires: 20 days (update frequency)
 ! Homepage: https://github.com/SlashArash/adblockfa
 ! License: The Beer-Ware License (The Ab-Havij-Ware License)
 !
@@ -25,6 +25,7 @@
 ||alipopup.ir^$third-party,popup
 ||anetwork.ir^$third-party
 ||apanet.net^$third-party
+||applebux.in^$third-party
 ||ariyabux.ir^$third-party,popup
 ||as-popup.ir^$third-party,popup
 ||asandl.com^$third-party
@@ -33,6 +34,7 @@
 ||buxi.ir^$third-party,popup
 ||buxirani.com^$third-party,popup
 ||buxstar.ir^$third-party
+||clickar.ir^$third-party
 ||clickyab.com^$third-party
 ||clix.ir^$third-party
 ||davedbux.ir^$third-party,popup
@@ -56,7 +58,9 @@
 ||jaba.ir^$third-party,popup
 ||janebi.ir^$third-party,popup
 ||jaragheirani.ir^$third-party
+||lifeclick.ir^$third-party
 ||lordpopup.com^$third-party,popup
+||magnetadservices.com^$third-party
 ||mahansurf.com^$third-party
 ||maxpopup.ir^$third-party,popup
 ||merita.ir^$third-party
@@ -65,11 +69,14 @@
 ||netbina.net^$third-party
 ||netstart.ir^$third-party
 ||networksara.com^$third-party,popup
+||nex1network.com^$third-party
 ||nextads.ir^$third-party
 ||nextpopup.ir^$third-party,popup
 ||onclickads.net^$third-party,popup
+||onestarclick.ir^$third-party
 ||p30rank.ir^$third-party
 ||pardad.ir^$third-party,popup
+||partclick.ir^$third-party
 ||paypop.org^$third-party,popup
 ||persianrank.ir^$third-party,popup
 ||persianstat.com^$third-party
@@ -90,6 +97,7 @@
 ||popupplus.ir^$third-party,popup
 ||popupsky.ir^$third-party,popup
 ||rdsa2012.com^$third-party,popup
+||richbux.ir^$third-party
 ||sabavision.com^$third-party
 ||setarebux.ir^$third-party,popup
 ||shoptou.in^$third-party,popup
@@ -99,8 +107,10 @@
 ||terraclicks.com^$third-party,popup
 ||toppopup.com^$third-party,popup
 ||utop.ir^$third-party
+||vatanclick.ir^$third-party
 ||webgozar.ir^$third-party
 ||yasell.biz^$third-party,popup
+||yekbux.com^$third-party
 ||yekbux.com^$third-party,popup
 ||zanboor.net^$third-party
 ||zigzig.ir^$third-party
