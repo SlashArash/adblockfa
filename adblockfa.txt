@@ -438,6 +438,7 @@ mihandownload.com##.fix
 mihandownload.com##.links-block
 mohandeseit.ir##.single-ads-mshow
 ofoghnews.ir###advertises
+p30skill.ir###shop-banner
 pooldarsho.ir##.advertisement-content
 shahrekhabar.com##body > table:nth-of-type(1)
 smusic.ir###top-ads-right
@@ -454,6 +455,7 @@ www.mashreghnews.ir###box30
 www.mashreghnews.ir###box59
 www.mashreghnews.ir###box60
 www.niksalehi.com##.banner_content_footer
+www.niksalehi.com##.banner_logo
 www.niksalehi.com##.banner_sid_desktop
 www.p30day.com###before_post > .adsblockpop
 www.rond.ir##.banner-box
@@ -472,6 +474,7 @@ zoomit.ir###rt-maintopcontent
 ||20script.ir/banner/*.gif
 ||55online.ir/baner-55online/
 ||98ia.com/images/Banner/
+||ad.nowaroos.com/$image
 ||ad.utop.ir/b/
 ||adpic.asiatech.ir/
 ||ads.akairan.com/
@@ -483,6 +486,7 @@ zoomit.ir###rt-maintopcontent
 ||ads.rzb.ir/
 ||ads.sahandar.com/
 ||ads.seemorgh.com/ads/
+||ads.shopkeeper.ir$image
 ||afkarnews.ir/serve/
 ||aftabir.com/campaigns/adv_images/
 ||akairan.com/images/banners/
@@ -729,6 +733,7 @@ zoomit.ir###rt-maintopcontent
 ||www.cinematicket.org/images/a-d/$image
 ||www.iranhall.com/ads/
 ||www.magiran.com/ads/
+||www.parsnaz.com/ads/$image
 ||www.shopkeeper.ir/images/*.gif
 ||www.shopkeeper.ir/images/*.swf
 ||www.webhostingtalk.ir/ads/
