@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: v+HYYAE2DK/m1/DE8HlcTA
+! Checksum: ad9dh1OVB/zepG2/mI6VUw
 ! Version: 170604
 ! Title: AdBlockFarsi
 ! Last modified: Sun Jun  4 11:34:00 IRDT 2017
