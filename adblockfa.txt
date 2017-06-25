@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ad9dh1OVB/zepG2/mI6VUw
-! Version: 170604
+! Checksum: Kn86Sm8Z5uokzRuVBvYsNw
+! Version: 170625
 ! Title: AdBlockFarsi
-! Last modified: Sun Jun  4 11:34:00 IRDT 2017
+! Last modified: Sun Jun 25 12:38:15 IRDT 2017
 ! Expires: 20 days (update frequency)
 ! Homepage: https://github.com/SlashArash/adblockfa
 ! License: The Beer-Ware License (The Ab-Havij-Ware License)
@@ -17,6 +17,7 @@
 ||adnegah.net^$third-party
 ||adpersia.com^$third-party
 ||adplxmd.com^$third-party,popup
+||adpulse.ir^$third-party
 ||adsgozar.com^$third-party
 ||adsptcbux.com^$third-party
 ||adsptcbux.com^$third-party,popup
@@ -36,6 +37,7 @@
 ||buxstar.ir^$third-party
 ||clickar.ir^$third-party
 ||clickyab.com^$third-party
+||clikfa.com^$third-party
 ||clix.ir^$third-party
 ||davedbux.ir^$third-party,popup
 ||digikala.com^$third-party
@@ -68,6 +70,7 @@
 ||mitrarank.ir^$third-party,popup
 ||netbina.net^$third-party
 ||netstart.ir^$third-party
+||netwas.net^$third-party
 ||networksara.com^$third-party,popup
 ||nex1network.com^$third-party
 ||nextads.ir^$third-party
@@ -104,13 +107,14 @@
 ||tabligheirani.com^$third-party
 ||takface.com^$third-party,popup
 ||takshop91.biz^$third-party,popup
+||teobux.com^$third-party
 ||terraclicks.com^$third-party,popup
 ||toppopup.com^$third-party,popup
 ||utop.ir^$third-party
 ||vatanclick.ir^$third-party
 ||webgozar.ir^$third-party
+||weclick.ir^$third-party
 ||yasell.biz^$third-party,popup
-||yekbux.com^$third-party
 ||yekbux.com^$third-party,popup
 ||zanboor.net^$third-party
 ||zigzig.ir^$third-party
@@ -326,6 +330,7 @@
 ##.firstV_Message
 ##.headbanner
 ##.header-ads
+##.header_ads
 ##.headerads
 ##.home-ads
 ##.home_adv
@@ -374,9 +379,10 @@
 ##.txt_adv_content
 ##.txtads
 ##.ul-ads
+##.widget-ad
+##.widget-ads
 ##.wp_bannerize
 ##img[alt="ads"]
-.header_ads
 Adver^
 Image/Ads/
 SiteAdvert/
@@ -420,9 +426,12 @@ uploads/ads/
 1pezeshk.com###mid_header > .wrapper > .wide_ad
 30nama.in###banner-header
 anaj.ir##.bannerPosition
+androidiha.net##.bg-ads
 arsenal.ir##.ads_1
 asandl.com##.text-asan
+banki.ir##.textAdv
 ccsp.ir##.bannerin
+digiato.com##.agahi-row
 download.ir##.content-top-ads-box
 downloadha.com##.entry-etc
 elmefarda.com##.underpost
@@ -451,6 +460,7 @@ www.akairan.com###ban51
 www.elmefarda.com##.ads
 www.farsnews.com##embedwww.gsm.ir##.a_gsm_d
 www.hamshahrionline.ir##.advContainer
+www.khabaronline.ir##.advContainer
 www.mashreghnews.ir###box30
 www.mashreghnews.ir###box59
 www.mashreghnews.ir###box60
@@ -523,7 +533,6 @@ zoomit.ir###rt-maintopcontent
 ||dehvand.ir/wp-content/themes/job-dehvand/banner/*
 ||developer1.ir/Pic/ADS%20Banner/
 ||developer1.ir/Pic/ADS/
-||digiato.com/wp-content/uploads/*.gif
 ||digiboy.ir/wp-content/themes/itblogs/DiGiADs/
 ||digionline.ir/Objects/
 ||donya-e-eqtesad.com/banner/
