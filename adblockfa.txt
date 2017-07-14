@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Kn86Sm8Z5uokzRuVBvYsNw
-! Version: 170625
+! Checksum: JN6B+pcnYxlD6nasAvnNNg
+! Version: 170714
 ! Title: AdBlockFarsi
-! Last modified: Sun Jun 25 12:38:15 IRDT 2017
+! Last modified: Fri Jul 14 13:20:58 IRDT 2017
 ! Expires: 20 days (update frequency)
 ! Homepage: https://github.com/SlashArash/adblockfa
 ! License: The Beer-Ware License (The Ab-Havij-Ware License)
@@ -11,7 +11,7 @@
 !
 !---------------------------Third-party and Popup advertisers---------------------------!
 !
-||21bux.ir^$third-party,popup
+|21bux.ir^$third-party,popup
 ||ad2ad.ir^$third-party
 ||adcash.com^$third-party,popup
 ||adnegah.net^$third-party
@@ -30,8 +30,11 @@
 ||ariyabux.ir^$third-party,popup
 ||as-popup.ir^$third-party,popup
 ||asandl.com^$third-party
+||azarbux.com^$third-party
 ||baharbux.ir^$third-party,popup
+||betbux.ir^$third-party
 ||bux1.ir^$third-party,popup
+||buxi.ir^$third-party
 ||buxi.ir^$third-party,popup
 ||buxirani.com^$third-party,popup
 ||buxstar.ir^$third-party
@@ -42,6 +45,8 @@
 ||davedbux.ir^$third-party,popup
 ||digikala.com^$third-party
 ||directrev.com^$third-party,popup
+||dunro.com^$third-party
+||e-earn.ir^$third-party
 ||facenama.com^$third-party
 ||farsbux.ir^$third-party
 ||fastclick.click^$third-party
@@ -52,6 +57,7 @@
 ||ipopup.ir^$third-party,popup
 ||iprank.ir^$third-party
 ||ipsell.ir^$third-party
+||iranclix.ir^$third-party
 ||iranwebads.com^$third-party
 ||irbazdid.com^$third-party,popup
 ||irclick.net^$third-party,popup
@@ -135,8 +141,11 @@
 ###ads-banner
 ###ads-block
 ###ads-bottom
+###ads-center
 ###ads-footer
+###ads-goshe
 ###ads-header
+###ads-left
 ###ads-main
 ###ads-menu
 ###ads-right
@@ -213,6 +222,7 @@
 ###textads2
 ###textads3
 ###top-ads
+###top-advertise
 ###topads
 ###topads1
 ###topads2
@@ -283,6 +293,7 @@
 ##.ads_post
 ##.ads_right
 ##.ads_side
+##.ads_single
 ##.ads_top
 ##.adsarea
 ##.adsbanner
@@ -327,6 +338,7 @@
 ##.bannertop
 ##.box-ads
 ##.div_banner
+##.e3lan
 ##.firstV_Message
 ##.headbanner
 ##.header-ads
@@ -431,9 +443,11 @@ arsenal.ir##.ads_1
 asandl.com##.text-asan
 banki.ir##.textAdv
 ccsp.ir##.bannerin
+cinemacinema.ir##.ads
 digiato.com##.agahi-row
 download.ir##.content-top-ads-box
 downloadha.com##.entry-etc
+downloadly.ir##.mom-e3lanat
 elmefarda.com##.underpost
 fararu.com##.txt_adv_content
 hidoctor.ir##.adsht
@@ -446,19 +460,26 @@ khabarpu.com##.txtads-whitebck
 mihandownload.com##.fix
 mihandownload.com##.links-block
 mohandeseit.ir##.single-ads-mshow
+naslemusic.com###fix-bottom-right
 ofoghnews.ir###advertises
 p30skill.ir###shop-banner
 pooldarsho.ir##.advertisement-content
+saten.ir##.b5san-post
 shahrekhabar.com##body > table:nth-of-type(1)
 smusic.ir###top-ads-right
 soft98.ir###left > .banners
 trakhtorlink.com###sidebarleft
 up.ghalebgraph.ir/up/galebgraph/*.gif
 worldit.ir###content > .postad
+www.1fardadownload.net##.ads
+www.20script.ir##.FixedAdvertising
+www.20script.ir##.ads-topppia
 www.akairan.com###ban44
 www.akairan.com###ban51
+www.eghtesadnews.com###left-douchad
 www.elmefarda.com##.ads
 www.farsnews.com##embedwww.gsm.ir##.a_gsm_d
+www.filmovies.ir##.bar-container
 www.hamshahrionline.ir##.advContainer
 www.khabaronline.ir##.advContainer
 www.mashreghnews.ir###box30
@@ -468,8 +489,10 @@ www.niksalehi.com##.banner_content_footer
 www.niksalehi.com##.banner_logo
 www.niksalehi.com##.banner_sid_desktop
 www.p30day.com###before_post > .adsblockpop
+www.rokna.ir##.noprint.pb16.fullw_800.left_column.float > .v_zxc
 www.rond.ir##.banner-box
 www.sourcebaran.com##.container-fluid.ads
+www.tarfandestan.com##.ads
 www.tottenhamhotspur.ir##.e3lan
 www.trakhtorlink.com###sidebarleft
 www.vbiran.ir##.vbiran-ads
@@ -554,12 +577,14 @@ zoomit.ir###rt-maintopcontent
 ||esteghlaltehranfc.com/esteghlal_content/media/image/*.gif
 ||estekhdami.org/images/archive/
 ||estekhtam.com/wp-content/uploads/*.gif
+||f1iran.com/wp-content/uploads/*/*/*.gif
 ||faradars.org/ads/
 ||farhangnews.ir/sites/default/files/banner/
 ||farnet.ir/*.gif
 ||farskids*.com/wp-content/uploads/*.gif
 ||farsnews.com/Banner/MainPage/Left/
 ||farsroid.com/file/*.gif
+||fbm.persiantools.net/banners/$image
 ||fbm.ptcdn.ir/banners/
 ||fbm.ptcdn.org/banners/
 ||fibazar.ir/uploads/ad_*.gif
@@ -568,6 +593,7 @@ zoomit.ir###rt-maintopcontent
 ||footofan.com/cmsfiles/mainportal/*.gif
 ||footofan.com/cmsfiles/mainportal/*.swf
 ||forum.persianadmins.ir/ads/
+||forum.persiannetworks.com/ads/$image
 ||forum.persiantools.com/banners/
 ||freedownload.ir/images/customer/
 ||freescript.ir/wp-content/uploads/*.gif
@@ -624,6 +650,7 @@ zoomit.ir###rt-maintopcontent
 ||khabaru.ir/*.gif
 ||lavdan.com/img/banner/
 ||league.ir/images/*.gif
+||lioncomputer.ir/uppic/images/*.gif
 ||lisna.ir/File/*.swf
 ||lisna.ir/images/pic/*.gif
 ||loxblog.com/ads/
@@ -660,6 +687,7 @@ zoomit.ir###rt-maintopcontent
 ||niniweblog.com/ads/
 ||noandishaan.com/images/*.gif
 ||nowaroos.com/images/Adver/
+||nuller.ir/images/*.gif
 ||onescript.ir/wp-content/uploads/*.gif
 ||p30day.com/images/banners/
 ||p30rank.ir/exbanner/
@@ -739,9 +767,12 @@ zoomit.ir###rt-maintopcontent
 ||wp-tools.ir/wp-content/uploads/*.gif
 ||wpcity.ir/wp-content/uploads/*.gif
 ||wpland.ir/wp-content/uploads/*.gif
+||www.20script.com/banner$image
+||www.alodoctor.ir/Content/images/banner/$image
 ||www.cinematicket.org/images/a-d/$image
 ||www.iranhall.com/ads/
 ||www.magiran.com/ads/
+||www.netwas.net/public/getBanner
 ||www.parsnaz.com/ads/$image
 ||www.shopkeeper.ir/images/*.gif
 ||www.shopkeeper.ir/images/*.swf
