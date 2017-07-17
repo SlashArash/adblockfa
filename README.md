@@ -12,7 +12,7 @@
 ## نصب آسان و سریع در همه افزونه‌ها
 خب برای اضافه کردن این لیست به افزونه‌ی مورد نظرتون فقط کافیه که لینک زیر کلیک کنید!
 
-[اضافه کردن فهرست ضد تبلیغ فارسی](https://cdn.rawgit.com/SlashArash/adblockfa/master/adblockfa.txt&title=AdBlockFarsi)
+[اضافه کردن فهرست ضد تبلیغ فارسی](abp:subscribe?location=https://cdn.rawgit.com/SlashArash/adblockfa/master/adblockfa.txt&title=AdBlockFarsi)
 
 ---
 توجه کنید که از مراحل زیر در صورتی استفاده کنید که لینک بالا برای شما کار نکرد یا به هر دلیلی مایل هستید که این فهرست را خودتان به افزونه اضافه کنید!
