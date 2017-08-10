@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: JN6B+pcnYxlD6nasAvnNNg
-! Version: 170714
+! Checksum: 5X+OmNzVEtzz8O7PqWxItA
+! Version: 170810
 ! Title: AdBlockFarsi
-! Last modified: Fri Jul 14 13:20:58 IRDT 2017
+! Last modified: Thu Aug 10 21:36:21 IRDT 2017
 ! Expires: 20 days (update frequency)
 ! Homepage: https://github.com/SlashArash/adblockfa
 ! License: The Beer-Ware License (The Ab-Havij-Ware License)
@@ -11,7 +11,7 @@
 !
 !---------------------------Third-party and Popup advertisers---------------------------!
 !
-|21bux.ir^$third-party,popup
+||21bux.ir^$third-party,popup
 ||ad2ad.ir^$third-party
 ||adcash.com^$third-party,popup
 ||adnegah.net^$third-party
@@ -109,6 +109,7 @@
 ||richbux.ir^$third-party
 ||sabavision.com^$third-party
 ||setarebux.ir^$third-party,popup
+||sheypoor.com^$third-party
 ||shoptou.in^$third-party,popup
 ||tabligheirani.com^$third-party
 ||takface.com^$third-party,popup
@@ -120,6 +121,7 @@
 ||vatanclick.ir^$third-party
 ||webgozar.ir^$third-party
 ||weclick.ir^$third-party
+||widgets.takhfifan.com^$third-party
 ||yasell.biz^$third-party,popup
 ||yekbux.com^$third-party,popup
 ||zanboor.net^$third-party
@@ -350,6 +352,7 @@
 ##.leftads
 ##.mainbannerads
 ##.mom-ads
+##.mom-e3lanat
 ##.popup_link
 ##.postad
 ##.rightbannerfix
@@ -376,6 +379,7 @@
 ##.tblgh
 ##.text-ad
 ##.text-ads
+##.text-tabliq
 ##.textads
 ##.textads1
 ##.textads2
@@ -394,7 +398,6 @@
 ##.widget-ad
 ##.widget-ads
 ##.wp_bannerize
-##img[alt="ads"]
 Adver^
 Image/Ads/
 SiteAdvert/
@@ -447,7 +450,6 @@ cinemacinema.ir##.ads
 digiato.com##.agahi-row
 download.ir##.content-top-ads-box
 downloadha.com##.entry-etc
-downloadly.ir##.mom-e3lanat
 elmefarda.com##.underpost
 fararu.com##.txt_adv_content
 hidoctor.ir##.adsht
@@ -466,6 +468,7 @@ p30skill.ir###shop-banner
 pooldarsho.ir##.advertisement-content
 saten.ir##.b5san-post
 shahrekhabar.com##body > table:nth-of-type(1)
+shenoto.com##._ads
 smusic.ir###top-ads-right
 soft98.ir###left > .banners
 trakhtorlink.com###sidebarleft
@@ -482,6 +485,8 @@ www.farsnews.com##embedwww.gsm.ir##.a_gsm_d
 www.filmovies.ir##.bar-container
 www.hamshahrionline.ir##.advContainer
 www.khabaronline.ir##.advContainer
+www.majidonline.com##.ads_zone
+www.majidonline.com##.inner_article_text_ads
 www.mashreghnews.ir###box30
 www.mashreghnews.ir###box59
 www.mashreghnews.ir###box60
@@ -493,8 +498,8 @@ www.rokna.ir##.noprint.pb16.fullw_800.left_column.float > .v_zxc
 www.rond.ir##.banner-box
 www.sourcebaran.com##.container-fluid.ads
 www.tarfandestan.com##.ads
-www.tottenhamhotspur.ir##.e3lan
 www.trakhtorlink.com###sidebarleft
+www.vajehyab.com###yektanet-articles-65
 www.vbiran.ir##.vbiran-ads
 zoomit.ir###rt-maintopcontent
 ||1admin.ir/wp-content/uploads/*300x250.jpg
@@ -636,6 +641,7 @@ zoomit.ir###rt-maintopcontent
 ||itresan.com/banner/
 ||itresan.com/wp-content/uploads/*.gif
 ||jarchi.ir/*.gif
+||jeeb.ir/banners/$image
 ||joomlaforum.ir/images/banners/
 ||kalakamuz.ir/wp-content/uploads/*.gif
 ||ketabesabz.com/images/banner/
@@ -782,6 +788,5 @@ zoomit.ir###rt-maintopcontent
 ||yasdl.com/wp-content/uploads/*.gif
 ||zamannews.ir/serve/*.swf
 ||zoomg.ir/wp-content/uploads/banners/
-||zoomit.ir//images/banners/
 ||zoomit.ir/images/*.GIF
 ||zoomit.ir/images/banners/
