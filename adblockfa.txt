@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 5X+OmNzVEtzz8O7PqWxItA
-! Version: 170810
+! Checksum: f1azArMV+cu1rgALUJyEaA
+! Version: 170823
 ! Title: AdBlockFarsi
-! Last modified: Thu Aug 10 21:36:21 IRDT 2017
-! Expires: 20 days (update frequency)
+! Last modified: Wed Aug 23 13:32:10 IRDT 2017
+! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/SlashArash/adblockfa
 ! License: The Beer-Ware License (The Ab-Havij-Ware License)
 !
@@ -111,12 +111,13 @@
 ||setarebux.ir^$third-party,popup
 ||sheypoor.com^$third-party
 ||shoptou.in^$third-party,popup
+||starpopup.com^$third-party
 ||tabligheirani.com^$third-party
 ||takface.com^$third-party,popup
 ||takshop91.biz^$third-party,popup
 ||teobux.com^$third-party
 ||terraclicks.com^$third-party,popup
-||toppopup.com^$third-party,popup
+||toppopup.com^$third-party
 ||utop.ir^$third-party
 ||vatanclick.ir^$third-party
 ||webgozar.ir^$third-party
@@ -465,6 +466,8 @@ mohandeseit.ir##.single-ads-mshow
 naslemusic.com###fix-bottom-right
 ofoghnews.ir###advertises
 p30skill.ir###shop-banner
+payju.ir###ad_groups_4561
+payju.ir##.adslist
 pooldarsho.ir##.advertisement-content
 saten.ir##.b5san-post
 shahrekhabar.com##body > table:nth-of-type(1)
@@ -479,6 +482,7 @@ www.20script.ir##.FixedAdvertising
 www.20script.ir##.ads-topppia
 www.akairan.com###ban44
 www.akairan.com###ban51
+www.cooldownload.ir##.fixedbanner2
 www.eghtesadnews.com###left-douchad
 www.elmefarda.com##.ads
 www.farsnews.com##embedwww.gsm.ir##.a_gsm_d
@@ -496,7 +500,7 @@ www.niksalehi.com##.banner_sid_desktop
 www.p30day.com###before_post > .adsblockpop
 www.rokna.ir##.noprint.pb16.fullw_800.left_column.float > .v_zxc
 www.rond.ir##.banner-box
-www.sourcebaran.com##.container-fluid.ads
+www.softgozar.com###dtlAdvertiseRightPanwww.sourcebaran.com##.container-fluid.ads
 www.tarfandestan.com##.ads
 www.trakhtorlink.com###sidebarleft
 www.vajehyab.com###yektanet-articles-65
@@ -737,6 +741,7 @@ zoomit.ir###rt-maintopcontent
 ||shahrekhabar.com/swf/
 ||shahrsakhtafzar.com/fa/images/banners/
 ||shariyan.com/upload/other/
+||shenoto.com/dist/bannerposition/$image
 ||skinak.ir/up/skinak/upload/*.gif
 ||smusic.ir/*.gif
 ||smusic.ir/*940.jpg
@@ -776,6 +781,7 @@ zoomit.ir###rt-maintopcontent
 ||www.20script.com/banner$image
 ||www.alodoctor.ir/Content/images/banner/$image
 ||www.cinematicket.org/images/a-d/$image
+||www.dolatebahar.com/media/media/banners/$image
 ||www.iranhall.com/ads/
 ||www.magiran.com/ads/
 ||www.netwas.net/public/getBanner
