@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: f1azArMV+cu1rgALUJyEaA
-! Version: 170823
+! Checksum: ftM7No4UipBz2bZchpz6Gw
+! Version: 170915
 ! Title: AdBlockFarsi
-! Last modified: Wed Aug 23 13:32:10 IRDT 2017
+! Last modified: Fri Sep 15 18:14:23 IRDT 2017
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/SlashArash/adblockfa
 ! License: The Beer-Ware License (The Ab-Havij-Ware License)
@@ -91,7 +91,9 @@
 ||persianstat.com^$third-party
 ||persianstat.ir^$third-party
 ||pg20.ir^$third-party,popup
+||poparya.com^$third-party,popup
 ||popgozar.ir^$third-party,popup
+||popkade.ir^$third-party,$popup
 ||popkade.ir^$third-party,popup
 ||popmaster.ir^$third-party,popup
 ||poppop.ir^$third-party,popup
@@ -112,11 +114,13 @@
 ||sheypoor.com^$third-party
 ||shoptou.in^$third-party,popup
 ||starpopup.com^$third-party
+||t.me^$popup
 ||tabligheirani.com^$third-party
 ||takface.com^$third-party,popup
 ||takshop91.biz^$third-party,popup
 ||teobux.com^$third-party
 ||terraclicks.com^$third-party,popup
+||tgju.org^$third-party,popup
 ||toppopup.com^$third-party
 ||utop.ir^$third-party
 ||vatanclick.ir^$third-party
@@ -473,7 +477,7 @@ saten.ir##.b5san-post
 shahrekhabar.com##body > table:nth-of-type(1)
 shenoto.com##._ads
 smusic.ir###top-ads-right
-soft98.ir###left > .banners
+soft98.ir##.banners
 trakhtorlink.com###sidebarleft
 up.ghalebgraph.ir/up/galebgraph/*.gif
 worldit.ir###content > .postad
@@ -486,6 +490,7 @@ www.cooldownload.ir##.fixedbanner2
 www.eghtesadnews.com###left-douchad
 www.elmefarda.com##.ads
 www.farsnews.com##embedwww.gsm.ir##.a_gsm_d
+www.film2movie.co##.headbanners
 www.filmovies.ir##.bar-container
 www.hamshahrionline.ir##.advContainer
 www.khabaronline.ir##.advContainer
@@ -497,14 +502,17 @@ www.mashreghnews.ir###box60
 www.niksalehi.com##.banner_content_footer
 www.niksalehi.com##.banner_logo
 www.niksalehi.com##.banner_sid_desktop
+www.ninisite.com##.ad-wrapper
 www.p30day.com###before_post > .adsblockpop
 www.rokna.ir##.noprint.pb16.fullw_800.left_column.float > .v_zxc
 www.rond.ir##.banner-box
-www.softgozar.com###dtlAdvertiseRightPanwww.sourcebaran.com##.container-fluid.ads
+www.softgozar.com###dtlAdvertiseRightPan
+www.sourcebaran.com##.container-fluid.ads
 www.tarfandestan.com##.ads
 www.trakhtorlink.com###sidebarleft
 www.vajehyab.com###yektanet-articles-65
 www.vbiran.ir##.vbiran-ads
+zendegionline.ir##.advert
 zoomit.ir###rt-maintopcontent
 ||1admin.ir/wp-content/uploads/*300x250.jpg
 ||1pezeshk.com/wp-content/uploads/*.gif
@@ -590,6 +598,7 @@ zoomit.ir###rt-maintopcontent
 ||faradars.org/ads/
 ||farhangnews.ir/sites/default/files/banner/
 ||farnet.ir/*.gif
+||farsi1hd.com/tvimage$image
 ||farskids*.com/wp-content/uploads/*.gif
 ||farsnews.com/Banner/MainPage/Left/
 ||farsroid.com/file/*.gif
@@ -597,6 +606,7 @@ zoomit.ir###rt-maintopcontent
 ||fbm.ptcdn.ir/banners/
 ||fbm.ptcdn.org/banners/
 ||fibazar.ir/uploads/ad_*.gif
+||files.namnak.com/aup/$image
 ||files.namnak.com/users/shop/*
 ||flashkhor.com/pictures/forosh/
 ||footofan.com/cmsfiles/mainportal/*.gif
@@ -731,6 +741,7 @@ zoomit.ir###rt-maintopcontent
 ||rokesh.ir/wp-content/uploads/*/*banner.*
 ||rond.ir/Content/SimBannerFile/Files/
 ||rouzegar.com/wp-content/uploads/*.gif
+||s1.ninifile.com/statics/tabl/$image
 ||saat24.com/d/*/0/
 ||sakhtafzarmag.com/images/banners/
 ||salamatnews.com/uploads/ad*
@@ -747,7 +758,6 @@ zoomit.ir###rt-maintopcontent
 ||smusic.ir/*940.jpg
 ||snn.ir/ads/
 ||snn.ir/content/images/*.gif
-||soft98.ir/*.gif
 ||softgozar.com/Image/SiteAde/
 ||spaceiran.com/images/all/banners/
 ||subdown1.ir/*.gif
