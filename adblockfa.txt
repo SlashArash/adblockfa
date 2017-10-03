@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ftM7No4UipBz2bZchpz6Gw
-! Version: 170915
+! Checksum: uSEQJXy663Yzjrk22w6ARg
+! Version: 171003
 ! Title: AdBlockFarsi
-! Last modified: Fri Sep 15 18:14:23 IRDT 2017
+! Last modified: Tue, 03 Oct 2017 14:02:42 GMT
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/SlashArash/adblockfa
 ! License: The Beer-Ware License (The Ab-Havij-Ware License)
@@ -129,6 +129,7 @@
 ||widgets.takhfifan.com^$third-party
 ||yasell.biz^$third-party,popup
 ||yekbux.com^$third-party,popup
+||yektanet.com^$third-party
 ||zanboor.net^$third-party
 ||zigzig.ir^$third-party
 !
@@ -457,16 +458,19 @@ download.ir##.content-top-ads-box
 downloadha.com##.entry-etc
 elmefarda.com##.underpost
 fararu.com##.txt_adv_content
+hastidl.net##.container > center
 hidoctor.ir##.adsht
 ilna.ir###sticker
 ilna.ir##.zxcList
 isport.ir##.iTablighitem
 itresan.com##.wp-image-6848
 kafemarketing.com##.bigAd
+khabarfarsi.com###banners_120_top
 khabarpu.com##.txtads-whitebck
 mihandownload.com##.fix
 mihandownload.com##.links-block
 mohandeseit.ir##.single-ads-mshow
+musiceiranian.ir##header >div > table
 naslemusic.com###fix-bottom-right
 ofoghnews.ir###advertises
 p30skill.ir###shop-banner
@@ -475,15 +479,22 @@ payju.ir##.adslist
 pooldarsho.ir##.advertisement-content
 saten.ir##.b5san-post
 shahrekhabar.com##body > table:nth-of-type(1)
+shanbemag.ir##.advertisement
+shanbemag.ir##.header_advertisement
 shenoto.com##._ads
 smusic.ir###top-ads-right
 soft98.ir##.banners
 trakhtorlink.com###sidebarleft
 up.ghalebgraph.ir/up/galebgraph/*.gif
+uupload.ir###ads150
+uupload.ir###ads150r
+uupload.ir##.tab_box
 worldit.ir###content > .postad
 www.1fardadownload.net##.ads
 www.20script.ir##.FixedAdvertising
 www.20script.ir##.ads-topppia
+www.20script.ir##.row.ads
+www.20script.ir##.row.adver-post
 www.akairan.com###ban44
 www.akairan.com###ban51
 www.cooldownload.ir##.fixedbanner2
@@ -575,6 +586,7 @@ zoomit.ir###rt-maintopcontent
 ||developer1.ir/Pic/ADS/
 ||digiboy.ir/wp-content/themes/itblogs/DiGiADs/
 ||digionline.ir/Objects/
+||dl.nasimonline.ir/FileRepository/$image
 ||donya-e-eqtesad.com/banner/
 ||donya-e-eqtesad.com/images/banners/
 ||donya-e-eqtesad.com/upload/rk/
@@ -796,6 +808,7 @@ zoomit.ir###rt-maintopcontent
 ||www.magiran.com/ads/
 ||www.netwas.net/public/getBanner
 ||www.parsnaz.com/ads/$image
+||www.parsonline.com/ads-old/
 ||www.shopkeeper.ir/images/*.gif
 ||www.shopkeeper.ir/images/*.swf
 ||www.webhostingtalk.ir/ads/
