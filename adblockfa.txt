@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: uSEQJXy663Yzjrk22w6ARg
-! Version: 171003
+! Checksum: 4m6idE1GnCP05MQscX/NiQ
+! Version: 171010
 ! Title: AdBlockFarsi
-! Last modified: Tue, 03 Oct 2017 14:02:42 GMT
+! Last modified: Tue Oct 10 12:22:49 +0330 2017
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/SlashArash/adblockfa
 ! License: The Beer-Ware License (The Ab-Havij-Ware License)
@@ -471,12 +471,15 @@ mihandownload.com##.fix
 mihandownload.com##.links-block
 mohandeseit.ir##.single-ads-mshow
 musiceiranian.ir##header >div > table
+namnak.com###BHeader
+namnak.com##.Bads
 naslemusic.com###fix-bottom-right
 ofoghnews.ir###advertises
 p30skill.ir###shop-banner
 payju.ir###ad_groups_4561
 payju.ir##.adslist
 pooldarsho.ir##.advertisement-content
+rooziato.com##.aside_ads
 saten.ir##.b5san-post
 shahrekhabar.com##body > table:nth-of-type(1)
 shanbemag.ir##.advertisement
@@ -490,6 +493,10 @@ uupload.ir###ads150
 uupload.ir###ads150r
 uupload.ir##.tab_box
 worldit.ir###content > .postad
+wpnovin.com##.adwidget
+wpnovin.com##.header-ad
+wpnovin.com##.leftfix
+wpnovin.com##.rightfix
 www.1fardadownload.net##.ads
 www.20script.ir##.FixedAdvertising
 www.20script.ir##.ads-topppia
@@ -505,6 +512,7 @@ www.film2movie.co##.headbanners
 www.filmovies.ir##.bar-container
 www.hamshahrionline.ir##.advContainer
 www.khabaronline.ir##.advContainer
+www.kojaro.com##.bannerWrapper
 www.majidonline.com##.ads_zone
 www.majidonline.com##.inner_article_text_ads
 www.mashreghnews.ir###box30
@@ -535,10 +543,12 @@ zoomit.ir###rt-maintopcontent
 ||20script.ir/banner/*.gif
 ||55online.ir/baner-55online/
 ||98ia.com/images/Banner/
+||98url.com/banners/$image
 ||ad.nowaroos.com/$image
 ||ad.utop.ir/b/
 ||adpic.asiatech.ir/
 ||ads.akairan.com/
+||ads.arna.ir/$image
 ||ads.barnameserver.com/
 ||ads.goldiran.ir/
 ||ads.iran-forum.ir/
@@ -654,6 +664,7 @@ zoomit.ir###rt-maintopcontent
 ||iranecona.com/banners/
 ||iranestekhdam.ir/upir/
 ||iranhall.com/ads/
+||iranianpath.com/my_doc/iranianpath/Right%20Banner/$image
 ||iranjib.ir/uploads/*.gif
 ||irannaz.com/ax/
 ||iransetup.com/Images/*Banner
@@ -689,6 +700,7 @@ zoomit.ir###rt-maintopcontent
 ||mahsho.com/wp-content/uploads/*.gif
 ||maralhost.com/images/banner/
 ||matlabsite.com/wp-content/uploads/*.gif
+||media.sarpoosh.com/ads/$image
 ||mehrnews.com/d/*.gif
 ||melateiran.com/toblighat/
 ||mihandownload.com/wp-content/uploads/*.gif
@@ -797,6 +809,7 @@ zoomit.ir###rt-maintopcontent
 ||windowscenter.ir/wp-content/uploads/*.gif
 ||winphone.ir/wp-content/uploads/*.gif
 ||worldit.ir/wp-content/uploads/*.gif
+||worldsubtitle.org/wp-content/themes/worldsubtitle-v4/media/images/banner/$image
 ||wp-tools.ir/wp-content/uploads/*.gif
 ||wpcity.ir/wp-content/uploads/*.gif
 ||wpland.ir/wp-content/uploads/*.gif
@@ -806,11 +819,14 @@ zoomit.ir###rt-maintopcontent
 ||www.dolatebahar.com/media/media/banners/$image
 ||www.iranhall.com/ads/
 ||www.magiran.com/ads/
+||www.majalesalamat.com/ads/$image
 ||www.netwas.net/public/getBanner
 ||www.parsnaz.com/ads/$image
 ||www.parsonline.com/ads-old/
+||www.sarpoosh.com/ads/$image
 ||www.shopkeeper.ir/images/*.gif
 ||www.shopkeeper.ir/images/*.swf
+||www.urlrate.net/banners/$image
 ||www.webhostingtalk.ir/ads/
 ||xperian.ir/xperian/wp-content/uploads/*.gif
 ||xscript.ir/*.gif
