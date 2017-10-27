@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 4m6idE1GnCP05MQscX/NiQ
-! Version: 171010
+! Checksum: IiMpA/BMsSuBjmLo3zzadQ
+! Version: 171027
 ! Title: AdBlockFarsi
-! Last modified: Tue Oct 10 12:22:49 +0330 2017
+! Last modified: Fri Oct 27 20:58:35 +0330 2017
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/SlashArash/adblockfa
 ! License: The Beer-Ware License (The Ab-Havij-Ware License)
@@ -445,6 +445,7 @@ uploads/ads/
 !----------------------Specific advert blocking filters-----------------------!
 !
 1pezeshk.com###mid_header > .wrapper > .wide_ad
+7plugin.ir##.e3lan-cell
 30nama.in###banner-header
 anaj.ir##.bannerPosition
 androidiha.net##.bg-ads
@@ -453,6 +454,9 @@ asandl.com##.text-asan
 banki.ir##.textAdv
 ccsp.ir##.bannerin
 cinemacinema.ir##.ads
+click.ir##.adsnews
+click.ir##.headads
+click.ir##.side-banner
 digiato.com##.agahi-row
 download.ir##.content-top-ads-box
 downloadha.com##.entry-etc
@@ -470,7 +474,9 @@ khabarpu.com##.txtads-whitebck
 mihandownload.com##.fix
 mihandownload.com##.links-block
 mohandeseit.ir##.single-ads-mshow
+mrcode.ir##.adloc-is-banner
 musiceiranian.ir##header >div > table
+myhastidownload.com##.ssn-ads
 namnak.com###BHeader
 namnak.com##.Bads
 naslemusic.com###fix-bottom-right
@@ -479,6 +485,7 @@ p30skill.ir###shop-banner
 payju.ir###ad_groups_4561
 payju.ir##.adslist
 pooldarsho.ir##.advertisement-content
+razmovie.com##.ads
 rooziato.com##.aside_ads
 saten.ir##.b5san-post
 shahrekhabar.com##body > table:nth-of-type(1)
@@ -504,8 +511,11 @@ www.20script.ir##.row.ads
 www.20script.ir##.row.adver-post
 www.akairan.com###ban44
 www.akairan.com###ban51
+www.ariamovie5.com##.b940
+www.asriran.com##.adv_ifram_ticket
 www.cooldownload.ir##.fixedbanner2
 www.eghtesadnews.com###left-douchad
+www.eghtesadnews.com##.special-head-add
 www.elmefarda.com##.ads
 www.farsnews.com##embedwww.gsm.ir##.a_gsm_d
 www.film2movie.co##.headbanners
@@ -516,6 +526,7 @@ www.kojaro.com##.bannerWrapper
 www.majidonline.com##.ads_zone
 www.majidonline.com##.inner_article_text_ads
 www.mashreghnews.ir###box30
+www.mashreghnews.ir###box55
 www.mashreghnews.ir###box59
 www.mashreghnews.ir###box60
 www.niksalehi.com##.banner_content_footer
@@ -544,6 +555,7 @@ zoomit.ir###rt-maintopcontent
 ||55online.ir/baner-55online/
 ||98ia.com/images/Banner/
 ||98url.com/banners/$image
+||a.clickyab.com/ads/
 ||ad.nowaroos.com/$image
 ||ad.utop.ir/b/
 ||adpic.asiatech.ir/
@@ -590,6 +602,7 @@ zoomit.ir###rt-maintopcontent
 ||blogfa.com/ads/banners/
 ||boursepress.ir/img/banners/
 ||c21.ir/niazpardaz.com/banner/
+||caffecinema.com/media/banners/$image
 ||daneshju.ir/banners/94/*.gif
 ||dehvand.ir/wp-content/themes/job-dehvand/banner/*
 ||developer1.ir/Pic/ADS%20Banner/
@@ -677,6 +690,7 @@ zoomit.ir###rt-maintopcontent
 ||itiran.com/sites/default/files/*banner*
 ||itresan.com/banner/
 ||itresan.com/wp-content/uploads/*.gif
+||jahanwp.ir/wp-content/themes/jahanwp.ir/ads/$image
 ||jarchi.ir/*.gif
 ||jeeb.ir/banners/$image
 ||joomlaforum.ir/images/banners/
@@ -806,9 +820,11 @@ zoomit.ir###rt-maintopcontent
 ||vista.ir/js/popnews.js
 ||webgoo.ir/ads/
 ||wikinaz.ir/wp-content/uploads/*.gif
+||wikiseda.org/static/banner/$image
 ||windowscenter.ir/wp-content/uploads/*.gif
 ||winphone.ir/wp-content/uploads/*.gif
 ||worldit.ir/wp-content/uploads/*.gif
+||worldsubtitle.biz/wp-content/themes/worldsubtitle-v4/media/images/banner$image
 ||worldsubtitle.org/wp-content/themes/worldsubtitle-v4/media/images/banner/$image
 ||wp-tools.ir/wp-content/uploads/*.gif
 ||wpcity.ir/wp-content/uploads/*.gif
@@ -826,12 +842,15 @@ zoomit.ir###rt-maintopcontent
 ||www.sarpoosh.com/ads/$image
 ||www.shopkeeper.ir/images/*.gif
 ||www.shopkeeper.ir/images/*.swf
+||www.tarafdari.com/advertise
 ||www.urlrate.net/banners/$image
 ||www.webhostingtalk.ir/ads/
+||www.اسکریپت.com/ads/$image
 ||xperian.ir/xperian/wp-content/uploads/*.gif
 ||xscript.ir/*.gif
 ||yasdl.com/wp-content/uploads/*.gif
 ||zamannews.ir/serve/*.swf
 ||zoomg.ir/wp-content/uploads/banners/
+||zoomit.ir/banners/$image
 ||zoomit.ir/images/*.GIF
 ||zoomit.ir/images/banners/
