@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: IiMpA/BMsSuBjmLo3zzadQ
-! Version: 171027
+! Checksum: gquF5MSm/12a+vKaNrBJ4w
+! Version: 171113
 ! Title: AdBlockFarsi
-! Last modified: Fri Oct 27 20:58:35 +0330 2017
+! Last modified: Mon Nov 13 10:02:22 +0330 2017
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/SlashArash/adblockfa
 ! License: The Beer-Ware License (The Ab-Havij-Ware License)
@@ -42,6 +42,7 @@
 ||clickyab.com^$third-party
 ||clikfa.com^$third-party
 ||clix.ir^$third-party
+||congoro.com^$third-party
 ||davedbux.ir^$third-party,popup
 ||digikala.com^$third-party
 ||directrev.com^$third-party,popup
@@ -71,6 +72,7 @@
 ||magnetadservices.com^$third-party
 ||mahansurf.com^$third-party
 ||maxpopup.ir^$third-party,popup
+||mediaad.org^$third-party
 ||merita.ir^$third-party
 ||mitranet.ir^$third-party
 ||mitrarank.ir^$third-party,popup
@@ -91,6 +93,7 @@
 ||persianstat.com^$third-party
 ||persianstat.ir^$third-party
 ||pg20.ir^$third-party,popup
+||poparya.com^$third-party
 ||poparya.com^$third-party,popup
 ||popgozar.ir^$third-party,popup
 ||popkade.ir^$third-party,$popup
@@ -110,6 +113,7 @@
 ||rdsa2012.com^$third-party,popup
 ||richbux.ir^$third-party
 ||sabavision.com^$third-party
+||sanjagh.net^$third-party
 ||setarebux.ir^$third-party,popup
 ||sheypoor.com^$third-party
 ||shoptou.in^$third-party,popup
