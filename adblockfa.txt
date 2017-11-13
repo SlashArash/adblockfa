@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Checksum: gquF5MSm/12a+vKaNrBJ4w
+! Checksum: h9cqR8oGsbNDRBtdyG0TVQ
 ! Version: 171113
 ! Title: AdBlockFarsi
 ! Last modified: Mon Nov 13 10:02:22 +0330 2017
@@ -408,28 +408,28 @@
 ##.widget-ad
 ##.widget-ads
 ##.wp_bannerize
-Adver^
+Adver/
 Image/Ads/
 SiteAdvert/
 Upload/Banner/
 Uploaded/Ads/
-adimg^
-ads-image^
-ads-pic^
-ads/banner/
-ads/images/
+adimg/
+ads-image/
+ads-pic/
+/ads/banner/
+/ads/images/
 adsImage/
 adsbox/
 adsurls/
-adv^
-advertise^
-advertisement^
-advertisements^
-advertising^
-advertisment^
-adverts^
+adv/
+advertise/
+advertisement/
+advertisements/
+advertising/
+advertisment/
+adverts/
 advs/
-agahi^
+agahi/
 content/ads/
 files/ads/
 hemayat/
@@ -440,10 +440,10 @@ media/ads/
 myads/
 siteads/
 tabligh^
-tablighat^
+tablighat/
 tablighpic/
-tabliq^
-tablligh^
+tabliq/
+tablligh/
 uploads/ads/
 !
 !----------------------Specific advert blocking filters-----------------------!
