@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: h9cqR8oGsbNDRBtdyG0TVQ
-! Version: 171113
+! Checksum: 3gO3whx8vWi9rA03j5RJ7w
+! Version: 171127
 ! Title: AdBlockFarsi
-! Last modified: Mon Nov 13 10:02:22 +0330 2017
+! Last modified: Mon Nov 27 11:07:55 +0330 2017
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/SlashArash/adblockfa
 ! License: The Beer-Ware License (The Ab-Havij-Ware License)
@@ -67,6 +67,7 @@
 ||jaba.ir^$third-party,popup
 ||janebi.ir^$third-party,popup
 ||jaragheirani.ir^$third-party
+||kaprila.com^$third-party
 ||lifeclick.ir^$third-party
 ||lordpopup.com^$third-party,popup
 ||magnetadservices.com^$third-party
@@ -509,6 +510,7 @@ wpnovin.com##.header-ad
 wpnovin.com##.leftfix
 wpnovin.com##.rightfix
 www.1fardadownload.net##.ads
+www.2gheroon.ir###topBanner
 www.20script.ir##.FixedAdvertising
 www.20script.ir##.ads-topppia
 www.20script.ir##.row.ads
@@ -521,10 +523,17 @@ www.cooldownload.ir##.fixedbanner2
 www.eghtesadnews.com###left-douchad
 www.eghtesadnews.com##.special-head-add
 www.elmefarda.com##.ads
-www.farsnews.com##embedwww.gsm.ir##.a_gsm_d
+www.farsnews.com##embed
 www.film2movie.co##.headbanners
 www.filmovies.ir##.bar-container
+www.gsm.ir##.a_gsm_d
 www.hamshahrionline.ir##.advContainer
+www.iranjib.ir###mainadv
+www.iranjib.ir##.col2tabl
+www.iranjib.ir##.col4tabl
+www.iranjib.ir##.col51tabl
+www.iranjib.ir##.col52tabl
+www.iranjib.ir##.col54tabl
 www.khabaronline.ir##.advContainer
 www.kojaro.com##.bannerWrapper
 www.majidonline.com##.ads_zone
@@ -607,6 +616,7 @@ zoomit.ir###rt-maintopcontent
 ||boursepress.ir/img/banners/
 ||c21.ir/niazpardaz.com/banner/
 ||caffecinema.com/media/banners/$image
+||cdn.tala.ir/content/ads/$image
 ||daneshju.ir/banners/94/*.gif
 ||dehvand.ir/wp-content/themes/job-dehvand/banner/*
 ||developer1.ir/Pic/ADS%20Banner/
@@ -665,7 +675,6 @@ zoomit.ir###rt-maintopcontent
 ||gooyait.com/uploads/*.gif
 ||graphiran.com/wp-content/uploads/*.gif
 ||gsm.ir/Repository/flash/
-||gsm.ir/static/files/image/*.gif
 ||gsm.ir/static/files/other/
 ||gsmaria.com/Resources/other/
 ||gsmaria.com/swf/
@@ -676,6 +685,7 @@ zoomit.ir###rt-maintopcontent
 ||hidoctor.ir/wp-content/uploads/*.gif
 ||images.khabarsport.com/system/menus/
 ||imarketor.com/wp-i-content/uploads/*.gif
+||img.cdn.tgju.org/advertisement/$image
 ||iran-tejarat.com/images/banners/
 ||iranecar.com/Media/Default/HtmlWidget/Contents/Item/
 ||iranecona.com/banners/
@@ -783,6 +793,7 @@ zoomit.ir###rt-maintopcontent
 ||rokesh.ir/wp-content/uploads/*/*banner.*
 ||rond.ir/Content/SimBannerFile/Files/
 ||rouzegar.com/wp-content/uploads/*.gif
+||s.mobile.ir/Static/b/$image
 ||s1.ninifile.com/statics/tabl/$image
 ||saat24.com/d/*/0/
 ||sakhtafzarmag.com/images/banners/
