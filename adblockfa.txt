@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 70qKiCTRXwL+8PuDspwe4w
-! Version: 171127
+! Checksum: ZWr38zKZbOFjLQPcXsXfBw
+! Version: 171229
 ! Title: AdBlockFarsi
-! Last modified: Mon Nov 27 14:30:51 +0330 2017
+! Last modified: Fri Dec 29 15:37:21 +0330 2017
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/SlashArash/adblockfa
 ! License: The Beer-Ware License (The Ab-Havij-Ware License)
@@ -62,11 +62,13 @@
 ||iranwebads.com^$third-party
 ||irbazdid.com^$third-party,popup
 ||irclick.net^$third-party,popup
+||iroclick.ir^$third-party
 ||irpopup.ir^$third-party
 ||itgheymat.com^$third-party,popup
 ||jaba.ir^$third-party,popup
 ||janebi.ir^$third-party,popup
 ||jaragheirani.ir^$third-party
+||jetbux.ir^$third-party
 ||kaprila.com^$third-party
 ||lifeclick.ir^$third-party
 ||lordpopup.com^$third-party,popup
@@ -75,6 +77,7 @@
 ||maxpopup.ir^$third-party,popup
 ||mediaad.org^$third-party
 ||merita.ir^$third-party
+||mihanclick.info^$third-party
 ||mitranet.ir^$third-party
 ||mitrarank.ir^$third-party,popup
 ||netbina.net^$third-party
@@ -90,6 +93,7 @@
 ||pardad.ir^$third-party,popup
 ||partclick.ir^$third-party
 ||paypop.org^$third-party,popup
+||payza.click^$third-party
 ||persianrank.ir^$third-party,popup
 ||persianstat.com^$third-party
 ||persianstat.ir^$third-party
@@ -119,6 +123,7 @@
 ||sheypoor.com^$third-party
 ||shoptou.in^$third-party,popup
 ||starpopup.com^$third-party
+||startbux.ir^$third-party
 ||t.me^$popup
 ||tabligheirani.com^$third-party
 ||takface.com^$third-party,popup
@@ -854,8 +859,6 @@ zoomit.ir###rt-maintopcontent
 ||www.parsnaz.com/ads/$image
 ||www.parsonline.com/ads-old/
 ||www.sarpoosh.com/ads/$image
-||www.shopkeeper.ir/images/*.gif
-||www.shopkeeper.ir/images/*.swf
 ||www.tarafdari.com/advertise
 ||www.urlrate.net/banners/$image
 ||www.webhostingtalk.ir/ads/
