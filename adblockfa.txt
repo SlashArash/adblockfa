@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ZWr38zKZbOFjLQPcXsXfBw
-! Version: 171229
+! Checksum: 1k4jvmEsOJbnCKi0GjIXqw
+! Version: 180202
 ! Title: AdBlockFarsi
-! Last modified: Fri Dec 29 15:37:21 +0330 2017
+! Last modified: Fri Feb  2 12:48:48 +0330 2018
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/SlashArash/adblockfa
 ! License: The Beer-Ware License (The Ab-Havij-Ware License)
@@ -417,7 +417,6 @@
 ##.widget-ad
 ##.widget-ads
 ##.wp_bannerize
-/Adver/
 /Image/Ads/
 /SiteAdvert/
 /Upload/Banner/
@@ -452,6 +451,7 @@
 !
 7plugin.ir##.e3lan-cell
 30nama.in###banner-header
+aftabnews.ir##.logo-adv
 anaj.ir##.bannerPosition
 androidiha.net##.bg-ads
 arsenal.ir##.ads_1
@@ -467,6 +467,7 @@ download.ir##.content-top-ads-box
 downloadha.com##.entry-etc
 elmefarda.com##.underpost
 fararu.com##.txt_adv_content
+gadgetnews.ir##.ad-cell
 ghalebgraph.ir##.border.ads
 hastidl.net##.container > center
 hidoctor.ir##.adsht
@@ -493,9 +494,12 @@ ofoghnews.ir###advertises
 p30skill.ir###shop-banner
 payju.ir###ad_groups_4561
 payju.ir##.adslist
+persianv.com##.ads_center_page
+persianv.com##.banner_logo
 pooldarsho.ir##.advertisement-content
 razmovie.com##.ads
 rooziato.com##.aside_ads
+rooziato.com##.home_top_ads
 saten.ir##.b5san-post
 shanbemag.ir##.advertisement
 shanbemag.ir##.header_advertisement
@@ -513,6 +517,7 @@ wpnovin.com##.header-ad
 wpnovin.com##.leftfix
 wpnovin.com##.rightfix
 www.1fardadownload.net##.ads
+www.1pezeshk.com##.enhanced-text-widget
 www.2gheroon.ir###topBanner
 www.20script.ir##.hamyar_area
 www.afkarnews.ir##.zxc
@@ -526,6 +531,8 @@ www.eghtesadnews.com###left-douchad
 www.eghtesadnews.com##.special-head-add
 www.elmefarda.com##.ads
 www.farsnews.com##embed
+www.farsroid.com##.ad
+www.farsroid.com##.post-sabet
 www.film2movie.co##.headbanners
 www.filmovies.ir##.bar-container
 www.gsm.ir##.a_gsm_d
@@ -558,6 +565,7 @@ www.rond.ir##.banner-box
 www.softgozar.com###dtlAdvertiseRightPan
 www.sourcebaran.com##.container-fluid.ads
 www.tarfandestan.com##.ads
+www.tgju.org###popup-layer-container
 www.trakhtorlink.com###sidebarleft
 www.vajehyab.com###yektanet-articles-65
 www.vbiran.ir##.vbiran-ads
@@ -655,7 +663,6 @@ zoomit.ir###rt-maintopcontent
 ||farsi1hd.com/tvimage$image
 ||farskids*.com/wp-content/uploads/*.gif
 ||farsnews.com/Banner/MainPage/Left/
-||farsroid.com/file/*.gif
 ||fbm.persiantools.net/banners/$image
 ||fbm.ptcdn.ir/banners/
 ||fbm.ptcdn.org/banners/
@@ -850,6 +857,7 @@ zoomit.ir###rt-maintopcontent
 ||wpland.ir/wp-content/uploads/*.gif
 ||www.alef.ir/files/advertise
 ||www.alodoctor.ir/Content/images/banner/$image
+||www.car.ir/files/adv/$image
 ||www.cinematicket.org/images/a-d/$image
 ||www.dolatebahar.com/media/media/banners/$image
 ||www.iranhall.com/ads/
