@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 1k4jvmEsOJbnCKi0GjIXqw
-! Version: 180202
+! Checksum: I9Uo52wbwVYQzPQGjyY09A
+! Version: 1802017
 ! Title: AdBlockFarsi
-! Last modified: Fri Feb  2 12:48:48 +0330 2018
+! Last modified: Sat Feb 17 21:46:36 +0330 2018
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/SlashArash/adblockfa
 ! License: The Beer-Ware License (The Ab-Havij-Ware License)
@@ -457,6 +457,7 @@ androidiha.net##.bg-ads
 arsenal.ir##.ads_1
 asandl.com##.text-asan
 banki.ir##.textAdv
+barsam.ir##.td-header-sp-recs
 ccsp.ir##.bannerin
 cinemacinema.ir##.ads
 click.ir##.adsnews
@@ -547,6 +548,7 @@ www.iranjib.ir##.col4tabl
 www.iranjib.ir##.col51tabl
 www.iranjib.ir##.col52tabl
 www.iranjib.ir##.col54tabl
+www.jahannews.com##.text_ad_class
 www.khabaronline.ir##.advContainer
 www.kojaro.com##.bannerWrapper
 www.majidonline.com##.ads_zone
@@ -560,12 +562,15 @@ www.niksalehi.com##.banner_logo
 www.niksalehi.com##.banner_sid_desktop
 www.ninisite.com##.ad-wrapper
 www.p30day.com###before_post > .adsblockpop
+www.rajanews.com##.ads
+www.respinagroup.com##.banners-public-wrrap
 www.rokna.ir##.noprint.pb16.fullw_800.left_column.float > .v_zxc
 www.rond.ir##.banner-box
 www.softgozar.com###dtlAdvertiseRightPan
 www.sourcebaran.com##.container-fluid.ads
 www.tarfandestan.com##.ads
 www.tgju.org###popup-layer-container
+www.tinn.ir##.type-resource-image
 www.trakhtorlink.com###sidebarleft
 www.vajehyab.com###yektanet-articles-65
 www.vbiran.ir##.vbiran-ads
@@ -857,15 +862,18 @@ zoomit.ir###rt-maintopcontent
 ||wpland.ir/wp-content/uploads/*.gif
 ||www.alef.ir/files/advertise
 ||www.alodoctor.ir/Content/images/banner/$image
+||www.baharnews.ir/images/advertise/$image
 ||www.car.ir/files/adv/$image
 ||www.cinematicket.org/images/a-d/$image
 ||www.dolatebahar.com/media/media/banners/$image
 ||www.iranhall.com/ads/
+||www.jahannews.com/images/advertise/$image
 ||www.magiran.com/ads/
 ||www.majalesalamat.com/ads/$image
 ||www.netwas.net/public/getBanner
 ||www.parsnaz.com/ads/$image
 ||www.parsonline.com/ads-old/
+||www.safarbank.ir/pic/advertisement/$image
 ||www.sarpoosh.com/ads/$image
 ||www.tarafdari.com/advertise
 ||www.urlrate.net/banners/$image
