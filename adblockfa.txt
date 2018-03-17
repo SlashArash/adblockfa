@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: GVEPSDpynMd9oVPM2RpDMg
-! Version: 180223
+! Checksum: wgFMEh6D83xhHlGhwyMg8w
+! Version: 180317
 ! Title: AdBlockFarsi
-! Last modified: Fri Feb 23 10:23:18 +0330 2018
+! Last modified: Sat Mar 17 20:17:21 +0330 2018
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/SlashArash/adblockfa
 ! License: The Beer-Ware License (The Ab-Havij-Ware License)
@@ -19,14 +19,11 @@
 ||adplxmd.com^$third-party,popup
 ||adpulse.ir^$third-party
 ||adsgozar.com^$third-party
-||adsptcbux.com^$third-party
-||adsptcbux.com^$third-party,popup
 ||adsready.com^$third-party
 ||adtube.ir^$third-party
 ||alipopup.ir^$third-party,popup
 ||anetwork.ir^$third-party
 ||apanet.net^$third-party
-||applebux.in^$third-party
 ||ariyabux.ir^$third-party,popup
 ||as-popup.ir^$third-party,popup
 ||asandl.com^$third-party
@@ -35,7 +32,6 @@
 ||betbux.ir^$third-party
 ||bux1.ir^$third-party,popup
 ||buxi.ir^$third-party
-||buxi.ir^$third-party,popup
 ||buxirani.com^$third-party,popup
 ||buxstar.ir^$third-party
 ||clickar.ir^$third-party
@@ -97,11 +93,9 @@
 ||persianrank.ir^$third-party,popup
 ||persianstat.com^$third-party
 ||persianstat.ir^$third-party
-||pg20.ir^$third-party,popup
 ||poparya.com^$third-party
 ||poparya.com^$third-party,popup
 ||popgozar.ir^$third-party,popup
-||popkade.ir^$third-party,$popup
 ||popkade.ir^$third-party,popup
 ||popmaster.ir^$third-party,popup
 ||poppop.ir^$third-party,popup
@@ -115,20 +109,15 @@
 ||popupirani.ir^$third-party,popup
 ||popupplus.ir^$third-party,popup
 ||popupsky.ir^$third-party,popup
-||rdsa2012.com^$third-party,popup
-||richbux.ir^$third-party
 ||sabavision.com^$third-party
 ||sanjagh.net^$third-party
 ||setarebux.ir^$third-party,popup
 ||sheypoor.com^$third-party
-||shoptou.in^$third-party,popup
 ||starpopup.com^$third-party
 ||startbux.ir^$third-party
 ||t.me^$popup
 ||tabligheirani.com^$third-party
-||takface.com^$third-party,popup
 ||takshop91.biz^$third-party,popup
-||teobux.com^$third-party
 ||terraclicks.com^$third-party,popup
 ||tgju.org^$third-party,popup
 ||toppopup.com^$third-party
@@ -141,7 +130,6 @@
 ||yekbux.com^$third-party,popup
 ||yektanet.com^$third-party
 ||zanboor.net^$third-party
-||zigzig.ir^$third-party
 !
 !-----------------------General advert blocking filters-----------------------!
 !
