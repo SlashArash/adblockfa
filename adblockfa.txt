@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: wgFMEh6D83xhHlGhwyMg8w
+! Checksum: OD2/q2tX63PUkQ4fD8sckQ
 ! Version: 180317
 ! Title: AdBlockFarsi
-! Last modified: Sat Mar 17 20:17:21 +0330 2018
+! Last modified: Sat Mar 17 20:28:42 +0330 2018
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/SlashArash/adblockfa
 ! License: The Beer-Ware License (The Ab-Havij-Ware License)
@@ -130,6 +130,7 @@
 ||yekbux.com^$third-party,popup
 ||yektanet.com^$third-party
 ||zanboor.net^$third-party
+||zarpop.com^$third-party
 !
 !-----------------------General advert blocking filters-----------------------!
 !
@@ -454,9 +455,12 @@ click.ir##.side-banner
 digiato.com##.agahi-row
 download.ir##.content-top-ads-box
 downloadha.com##.entry-etc
+downloadly.ir###lkbik
+edcoan.ir###ads_me_aria
 elmefarda.com##.underpost
 fararu.com##.txt_adv_content
 gadgetnews.ir##.ad-cell
+gameon.shatelland.com##.ad
 ghalebgraph.ir##.border.ads
 hastidl.net##.container > center
 hidoctor.ir##.adsht
@@ -470,6 +474,7 @@ kafemarketing.com##.bigAd
 khabarfarsi.com###banners_120_top
 khabarfarsi.com##.region-logo-area
 khabarpu.com##.txtads-whitebck
+mahsho.com###mask
 mihandownload.com##.fix
 mihandownload.com##.links-block
 mohandeseit.ir##.single-ads-mshow
@@ -506,6 +511,7 @@ wpnovin.com##.header-ad
 wpnovin.com##.leftfix
 wpnovin.com##.rightfix
 www.1fardadownload.net##.ads
+www.1pezeshk.com###adtube-261
 www.1pezeshk.com##.enhanced-text-widget
 www.2gheroon.ir###topBanner
 www.20script.ir##.hamyar_area
@@ -519,6 +525,7 @@ www.cooldownload.ir##.fixedbanner2
 www.eghtesadnews.com###left-douchad
 www.eghtesadnews.com##.special-head-add
 www.elmefarda.com##.ads
+www.elmevarzesh.com##.ads_1
 www.farsnews.com##embed
 www.farsroid.com##.ad
 www.farsroid.com##.post-sabet
@@ -553,6 +560,9 @@ www.p30day.com###before_post > .adsblockpop
 www.rajanews.com##.ads
 www.respinagroup.com##.banners-public-wrrap
 www.rokna.ir##.noprint.pb16.fullw_800.left_column.float > .v_zxc
+www.rokna.net##.banner-sabet
+www.rokna.net##.sa-event-header
+www.rokna.net##.type-resource-image
 www.rond.ir##.banner-box
 www.softgozar.com###dtlAdvertiseRightPan
 www.sourcebaran.com##.container-fluid.ads
@@ -578,6 +588,7 @@ zoomit.ir###rt-maintopcontent
 ||ad.utop.ir/b/
 ||adpic.asiatech.ir/
 ||ads.akairan.com/
+||ads.akkasee.com/$image
 ||ads.arna.ir/$image
 ||ads.barnameserver.com/
 ||ads.farzand.net
@@ -662,6 +673,7 @@ zoomit.ir###rt-maintopcontent
 ||fibazar.ir/uploads/ad_*.gif
 ||files.namnak.com/aup/$image
 ||files.namnak.com/users/shop/*
+||fitnessmagazine.ir/ads/$image
 ||flashkhor.com/pictures/forosh/
 ||footofan.com/cmsfiles/mainportal/*.gif
 ||footofan.com/cmsfiles/mainportal/*.swf
@@ -765,6 +777,7 @@ zoomit.ir###rt-maintopcontent
 ||nuller.ir/images/*.gif
 ||onescript.ir/wp-content/uploads/*.gif
 ||p30day.com/images/banners/
+||p30download.com/agahi/files/$image
 ||p30rank.ir/exbanner/
 ||p30world.com/wp/wp-content/uploads/*.gif
 ||p30world.com/wp/wp-content/uploads/*.swf
