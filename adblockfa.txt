@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 4qfKppGv29GbpUHw/WnoqA
-! Version: 300318
+! Checksum: gbDwPekY8+7VHHmB/vZBKw
+! Version: 180406
 ! Title: AdBlockFarsi
-! Last modified: Fri Mar 30 12:40:32 +0430 2018
+! Last modified: Fri Apr  6 14:25:09 +0430 2018
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/SlashArash/adblockfa
 ! License: The Beer-Ware License (The Ab-Havij-Ware License)
@@ -452,6 +452,7 @@ click.ir##.adsnews
 click.ir##.headads
 click.ir##.side-banner
 digiato.com##.agahi-row
+donya-e-eqtesad.com##.type-resource-image
 download.ir##.content-top-ads-box
 downloadha.com##.entry-etc
 downloadly.ir###lkbik
@@ -500,6 +501,7 @@ shariyan.com##.Publicity_item
 shenoto.com##._ads
 smusic.ir###top-ads-right
 soft98.ir##.banners
+tehmovies.pro##.litebox
 trakhtorlink.com###sidebarleft
 uupload.ir###ads150
 uupload.ir###ads150r
@@ -523,6 +525,8 @@ www.bornanews.ir##.type-resource
 www.cooldownload.ir##.fixedbanner2
 www.eghtesadnews.com###left-douchad
 www.eghtesadnews.com##.special-head-add
+www.eghtesadnews.com##.type-resource-image
+www.eghtesadonline.com##.type-resource-image
 www.elmefarda.com##.ads
 www.elmevarzesh.com##.ads_1
 www.farsnews.com##embed
@@ -626,11 +630,13 @@ zoomit.ir###rt-maintopcontent
 ||beytoote.com/shops/
 ||bia4music.com/*.gif
 ||bigtheme.ir/wp-content/uploads/*.gif
+||blaxup.net/upload/ads/$image
 ||blogers.ir/ads/
 ||blogfa.com/ads/banners/
 ||boursepress.ir/img/banners/
 ||c21.ir/niazpardaz.com/banner/
 ||caffecinema.com/media/banners/$image
+||cdn.inoor.ir/banner/$image
 ||cdn.tala.ir/content/ads/$image
 ||daneshju.ir/banners/94/*.gif
 ||darooyab.ir/Content/AdvertisementImages/$image
@@ -816,6 +822,7 @@ zoomit.ir###rt-maintopcontent
 ||samenblog.com/ads/
 ||sarzamindownload.com/images/banners/
 ||sarzamindownload.com/images/banners/customers/
+||sepehr360.com/fa/Api/ImageApi/$image
 ||shabakeh-mag.com/sites/default/files/*/ad/
 ||shahrekhabar.com/swf/
 ||shahrsakhtafzar.com/fa/images/banners/
@@ -866,7 +873,9 @@ zoomit.ir###rt-maintopcontent
 ||www.car.ir/files/adv/$image
 ||www.cinematicket.org/images/a-d/$image
 ||www.dolatebahar.com/media/media/banners/$image
+||www.eghtesadeiranonline.com/images/advertise/$object
 ||www.iranhall.com/ads/
+||www.ireconomy.ir/images/advertising/$image
 ||www.jahannews.com/images/advertise/$image
 ||www.magiran.com/ads/
 ||www.majalesalamat.com/ads/$image
