@@ -1,15 +1,15 @@
 [Adblock Plus 2.0]
-! Checksum: gbDwPekY8+7VHHmB/vZBKw
-! Version: 180406
+! Checksum: yfKzrUK3mcjUnH1EBpbZzA
+! Version: 180427
 ! Title: AdBlockFarsi
-! Last modified: Fri Apr  6 14:25:09 +0430 2018
+! Last modified: Fri Apr 27 14:59:03 +0430 2018
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/SlashArash/adblockfa
 ! License: The Beer-Ware License (The Ab-Havij-Ware License)
 !
 ! Please report any unblocked adverts or problems via e-mail (slasharash@protonmail.com).
 !
-!---------------------------Third-party and Popup advertisers---------------------------!
+!--------------------------- Third-party and Popup filters ---------------------------!
 !
 ||21bux.ir^$third-party,popup
 ||ad2ad.ir^$third-party
@@ -21,6 +21,7 @@
 ||adsgozar.com^$third-party
 ||adsready.com^$third-party
 ||adtube.ir^$third-party
+||adziran.ml^$third-party
 ||alipopup.ir^$third-party,popup
 ||anetwork.ir^$third-party
 ||apanet.net^$third-party
@@ -94,7 +95,6 @@
 ||persianstat.com^$third-party
 ||persianstat.ir^$third-party
 ||poparya.com^$third-party
-||poparya.com^$third-party,popup
 ||popgozar.ir^$third-party,popup
 ||popkade.ir^$third-party,popup
 ||popmaster.ir^$third-party,popup
@@ -132,11 +132,10 @@
 ||zanboor.net^$third-party
 ||zarpop.com^$third-party
 !
-!-----------------------General advert blocking filters-----------------------!
+!----------------------- Generic filters -----------------------!
 !
 ###Topadver
 ###ad-box
-###ad_global_below_navbar
 ###ad_main
 ###adbox
 ###addver
@@ -149,6 +148,7 @@
 ###ads-block
 ###ads-bottom
 ###ads-center
+###ads-container
 ###ads-footer
 ###ads-goshe
 ###ads-header
@@ -209,7 +209,6 @@
 ###home_adv
 ###popup
 ###second_ads
-###skinak_ads_bottom_right_125
 ###tabligh
 ###tabligh-bottom
 ###tabligh-box
@@ -221,7 +220,6 @@
 ###tablighatleft
 ###tablighatmain
 ###tablighattop
-###tabligheirani_ads_bottom_right_125
 ###tabliq
 ###text-tabliq
 ###textads
@@ -266,6 +264,7 @@
 ##.ads-post
 ##.ads-rast
 ##.ads-right
+##.ads-row
 ##.ads-section
 ##.ads-side
 ##.ads-sidebar
@@ -435,8 +434,9 @@
 /tablligh/*
 /uploads/ads/*
 !
-!----------------------Specific advert blocking filters-----------------------!
+!---------------------- Precise filters-----------------------!
 !
+
 7plugin.ir##.e3lan-cell
 30nama.in###banner-header
 aftabnews.ir##.logo-adv
@@ -450,6 +450,7 @@ ccsp.ir##.bannerin
 cinemacinema.ir##.ads
 click.ir##.adsnews
 click.ir##.headads
+click.ir##.jeg_ad
 click.ir##.side-banner
 digiato.com##.agahi-row
 donya-e-eqtesad.com##.type-resource-image
@@ -458,7 +459,9 @@ downloadha.com##.entry-etc
 downloadly.ir###lkbik
 edcoan.ir###ads_me_aria
 elmefarda.com##.underpost
+emalls.ir##.detail-banner
 fararu.com##.txt_adv_content
+farnet.ir##.bsac-image
 gadgetnews.ir##.ad-cell
 gameon.shatelland.com##.ad
 ghalebgraph.ir##.border.ads
@@ -502,6 +505,7 @@ shenoto.com##._ads
 smusic.ir###top-ads-right
 soft98.ir##.banners
 tehmovies.pro##.litebox
+toranji.ir##.square-ad
 trakhtorlink.com###sidebarleft
 uupload.ir###ads150
 uupload.ir###ads150r
@@ -513,6 +517,7 @@ wpnovin.com##.leftfix
 wpnovin.com##.rightfix
 www.1fardadownload.net##.ads
 www.1pezeshk.com###adtube-261
+www.1pezeshk.com##.category-ad-sidebar-2
 www.1pezeshk.com##.enhanced-text-widget
 www.2gheroon.ir###topBanner
 www.20script.ir##.hamyar_area
@@ -540,6 +545,8 @@ www.hidoctor.ir##.pdsadsboxcy
 www.hidoctor.ir##.pdsadsleft
 www.hidoctor.ir##.pdsifradsbn
 www.hidoctor.ir##.pdslanboxbg
+www.ilnanews.com##.type-resource-image
+www.ilnanews.com##.type-script
 www.iranjib.ir###mainadv
 www.iranjib.ir##.col2tabl
 www.iranjib.ir##.col4tabl
@@ -555,6 +562,7 @@ www.mashreghnews.ir###box30
 www.mashreghnews.ir###box55
 www.mashreghnews.ir###box59
 www.mashreghnews.ir###box60
+www.mehrnews.com##.ads-random
 www.niksalehi.com##.banner_content_footer
 www.niksalehi.com##.banner_logo
 www.niksalehi.com##.banner_sid_desktop
@@ -575,14 +583,16 @@ www.tinn.ir##.type-resource-image
 www.trakhtorlink.com###sidebarleft
 www.vajehyab.com###yektanet-articles-65
 www.vbiran.ir##.vbiran-ads
+www.zoomit.ir##.pad0A_mobile
 zendegionline.ir##.advert
 zoomit.ir###rt-maintopcontent
+zoomtech.ir###banner_img
+zoomtech.ir###top_ads
 ||1admin.ir/wp-content/uploads/*300x250.jpg
 ||1varzesh.com/images/banners/
 ||2daylink.com/files/banner/
 ||7gardoon.com/pics/*_banner_image/
 ||7learn.com/ads/
-||10teh-song.pw/*/BANER/*.jpg
 ||55online.ir/baner-55online/
 ||98ia.com/images/Banner/
 ||98url.com/banners/$image
@@ -668,9 +678,7 @@ zoomit.ir###rt-maintopcontent
 ||f1iran.com/wp-content/uploads/*/*/*.gif
 ||faradars.org/ads/
 ||farhangnews.ir/sites/default/files/banner/
-||farnet.ir/*.gif
 ||farsi1hd.com/tvimage$image
-||farskids*.com/wp-content/uploads/*.gif
 ||farsnews.com/Banner/MainPage/Left/
 ||fbm.persiantools.net/banners/$image
 ||fbm.ptcdn.ir/banners/
@@ -767,6 +775,7 @@ zoomit.ir###rt-maintopcontent
 ||namnak.papnews.ir/namnak/N1.html
 ||new4android.ir/*.gif
 ||new4android.ir/wp-content/uploads/*.gif
+||newsfa.ir/uploads/banner/$image
 ||newsmedia.tasnimnews.com/Tasnim/Uploaded/Ads/$image
 ||nex1music.ir/banner/
 ||nex1music.ir/bnr/
@@ -847,7 +856,6 @@ zoomit.ir###rt-maintopcontent
 ||tgju.org/images/advertisement/
 ||topnaz.com/wp-content/themes/topnaz_panab/psimgs/ads/
 ||topseda.ir/wp-content/uploads/*.gif
-||toranji.ir/wp-content/uploads/*.gif
 ||trainbit.com/adviews
 ||unp.ir/*.gif
 ||up.facenama.com/file/*.gif
