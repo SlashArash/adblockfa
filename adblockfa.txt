@@ -142,6 +142,7 @@
 ###addver1
 ###addver2
 ###addver3
+###adnFloatbl
 ###ads
 ###ads-area
 ###ads-banner
@@ -305,6 +306,7 @@
 ##.adsarea
 ##.adsbanner
 ##.adsblock
+##.adsblockpop
 ##.adsbox
 ##.adsimg
 ##.adss
@@ -404,6 +406,7 @@
 ##.widget-ad
 ##.widget-ads
 ##.wp_bannerize
+/468-120.
 /Image/Ads/*
 /SiteAdvert/*
 /Upload/Banner/*
@@ -488,6 +491,7 @@ namnak.com###BHeader
 namnak.com##.Bads
 naslemusic.com###fix-bottom-right
 ofoghnews.ir###advertises
+p30day.com##.ads
 p30skill.ir###shop-banner
 payju.ir###ad_groups_4561
 payju.ir##.adslist
@@ -567,7 +571,6 @@ www.niksalehi.com##.banner_content_footer
 www.niksalehi.com##.banner_logo
 www.niksalehi.com##.banner_sid_desktop
 www.ninisite.com##.ad-wrapper
-www.p30day.com###before_post > .adsblockpop
 www.rajanews.com##.ads
 www.respinagroup.com##.banners-public-wrrap
 www.rokna.ir##.noprint.pb16.fullw_800.left_column.float > .v_zxc
