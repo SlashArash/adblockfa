@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: yfKzrUK3mcjUnH1EBpbZzA
-! Version: 180427
+! Checksum: xUypgPR2zn1Xe4C25ngAzQ
+! Version: 180525
 ! Title: AdBlockFarsi
-! Last modified: Fri Apr 27 14:59:03 +0430 2018
+! Last modified: Fri May 25 10:55:16 +0430 2018
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/SlashArash/adblockfa
 ! License: The Beer-Ware License (The Ab-Havij-Ware License)
@@ -438,7 +438,6 @@
 !
 !---------------------- Precise filters-----------------------!
 !
-
 7plugin.ir##.e3lan-cell
 30nama.in###banner-header
 aftabnews.ir##.logo-adv
@@ -513,6 +512,7 @@ uupload.ir###ads150
 uupload.ir###ads150r
 uupload.ir##.tab_box
 worldit.ir###content > .postad
+worldsubtitle.biz###advertisement
 wpnovin.com##.adwidget
 wpnovin.com##.header-ad
 wpnovin.com##.leftfix
