@@ -14,6 +14,8 @@
 ||21bux.ir^$third-party,popup
 ||ad2ad.ir^$third-party
 ||adcash.com^$third-party,popup
+||adment.me^$third-party
+||adment.space^$third-party
 ||adnegah.net^$third-party
 ||adpersia.com^$third-party
 ||adplxmd.com^$third-party,popup
