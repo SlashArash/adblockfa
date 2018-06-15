@@ -1,16 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: xUypgPR2zn1Xe4C25ngAzQ
-! Version: 180525
-! Title: AdBlockFarsi
-! Last modified: Fri May 25 10:55:16 +0430 2018
+! Checksum: 1sN/Suz8Ul+YFYc3Gv1d9Q
+! Version: 180615
+! Title: AdBlock Farsi
+! Last modified: Fri Jun 15 16:06:44 +0430 2018
 ! Expires: 5 days (update frequency)
+! Download:  https://cdn.rawgit.com/SlashArash/adblockfa/master/adblockfa.txt
 ! Homepage: https://github.com/SlashArash/adblockfa
+! Support:   https://github.com/SlashArash/adblockfa/issues 
 ! License: The Beer-Ware License (The Ab-Havij-Ware License)
 !
-! Please report any unblocked adverts or problems via e-mail (slasharash@protonmail.com).
-!
-!--------------------------- Third-party and Popup filters ---------------------------!
-!
+!-------------------------------------------------!
+!==============! Third-party Rules !==============!
+!-------------------------------------------------!
 ||21bux.ir^$third-party,popup
 ||ad2ad.ir^$third-party
 ||adcash.com^$third-party,popup
@@ -21,6 +22,7 @@
 ||adplxmd.com^$third-party,popup
 ||adpulse.ir^$third-party
 ||adsgozar.com^$third-party
+||adskyo.com^$third-party
 ||adsready.com^$third-party
 ||adtube.ir^$third-party
 ||adziran.ml^$third-party
@@ -133,9 +135,9 @@
 ||yektanet.com^$third-party
 ||zanboor.net^$third-party
 ||zarpop.com^$third-party
-!
-!----------------------- Generic filters -----------------------!
-!
+!----------------------------------------------!
+!==============! Cosmetic Rules !==============!
+!----------------------------------------------!
 ###Topadver
 ###ad-box
 ###ad_main
@@ -406,6 +408,9 @@
 ##.widget-ad
 ##.widget-ads
 ##.wp_bannerize
+!---------------------------------------------!
+!==============! Generic Rules !==============!
+!---------------------------------------------!
 /Image/Ads/*
 /SiteAdvert/*
 /Upload/Banner/*
@@ -435,11 +440,11 @@
 /tabliq/*
 /tablligh/*
 /uploads/ads/*
-!
-!---------------------- Precise filters-----------------------!
-!
-7plugin.ir##.e3lan-cell
+!-----------------------------------------------------------!
+!==============! Rules for specific websites !==============!
+!-----------------------------------------------------------!
 30nama.in###banner-header
+7plugin.ir##.e3lan-cell
 aftabnews.ir##.logo-adv
 anaj.ir##.bannerPosition
 androidiha.net##.bg-ads
@@ -513,6 +518,7 @@ uupload.ir###ads150r
 uupload.ir##.tab_box
 worldit.ir###content > .postad
 worldsubtitle.biz###advertisement
+worldsubtitle.biz###advertisement
 wpnovin.com##.adwidget
 wpnovin.com##.header-ad
 wpnovin.com##.leftfix
@@ -521,8 +527,8 @@ www.1fardadownload.net##.ads
 www.1pezeshk.com###adtube-261
 www.1pezeshk.com##.category-ad-sidebar-2
 www.1pezeshk.com##.enhanced-text-widget
-www.2gheroon.ir###topBanner
 www.20script.ir##.hamyar_area
+www.2gheroon.ir###topBanner
 www.afkarnews.ir##.zxc
 www.akairan.com###ban44
 www.akairan.com###ban51
@@ -593,9 +599,9 @@ zoomtech.ir###top_ads
 ||1admin.ir/wp-content/uploads/*300x250.jpg
 ||1varzesh.com/images/banners/
 ||2daylink.com/files/banner/
+||55online.ir/baner-55online/
 ||7gardoon.com/pics/*_banner_image/
 ||7learn.com/ads/
-||55online.ir/baner-55online/
 ||98ia.com/images/Banner/
 ||98url.com/banners/$image
 ||a.clickyab.com/ads/
@@ -819,6 +825,7 @@ zoomtech.ir###top_ads
 ||pnunews.com/*.gif
 ||pnunews.net/wp-content/uploads/*.gif
 ||pop-music.ir/aks/
+||price.forsatnet.ir/images/banners/$image
 ||rahyabnetwork.com/banner/
 ||rajanews.com/sites/default/files/superadmin/
 ||reshteyab.ir/*.gif
@@ -895,6 +902,7 @@ zoomtech.ir###top_ads
 ||www.safarbank.ir/pic/advertisement/$image
 ||www.sarpoosh.com/ads/$image
 ||www.tarafdari.com/advertise
+||www.tarafdari.com/sites/default/files/apps/advertise/$image
 ||www.urlrate.net/banners/$image
 ||www.webhostingtalk.ir/ads/
 ||www.اسکریپت.com/ads/$image
