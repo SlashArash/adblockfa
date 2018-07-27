@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 1sN/Suz8Ul+YFYc3Gv1d9Q
-! Version: 180615
+! Checksum: hrEI+T1xPbae19eBNk56Xw
+! Version: 180727
 ! Title: AdBlock Farsi
-! Last modified: Fri Jun 15 16:06:44 +0430 2018
+! Last modified: Fri Jul 27 19:36:34 +0430 2018
 ! Expires: 5 days (update frequency)
 ! Download:  https://cdn.rawgit.com/SlashArash/adblockfa/master/adblockfa.txt
 ! Homepage: https://github.com/SlashArash/adblockfa
@@ -71,6 +71,7 @@
 ||jaragheirani.ir^$third-party
 ||jetbux.ir^$third-party
 ||kaprila.com^$third-party
+||kingpopup.com^$third-party
 ||lifeclick.ir^$third-party
 ||lordpopup.com^$third-party,popup
 ||magnetadservices.com^$third-party
@@ -117,9 +118,9 @@
 ||sanjagh.net^$third-party
 ||setarebux.ir^$third-party,popup
 ||sheypoor.com^$third-party
+||sigmaad.com^$third-party
 ||starpopup.com^$third-party
 ||startbux.ir^$third-party
-||t.me^$popup
 ||tabligheirani.com^$third-party
 ||takshop91.biz^$third-party,popup
 ||terraclicks.com^$third-party,popup
@@ -129,6 +130,7 @@
 ||vatanclick.ir^$third-party
 ||webgozar.ir^$third-party
 ||weclick.ir^$third-party
+||wideads.com^$third-party
 ||widgets.takhfifan.com^$third-party
 ||yasell.biz^$third-party,popup
 ||yekbux.com^$third-party,popup
