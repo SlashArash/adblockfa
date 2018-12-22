@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: hrEI+T1xPbae19eBNk56Xw
-! Version: 180727
+! Checksum: 5GQ/Zwm4msEuOK6BTkWITA
+! Version: 181222
 ! Title: AdBlock Farsi
-! Last modified: Fri Jul 27 19:36:34 +0430 2018
+! Last modified: Sat Dec 22 23:01:16 +0330 2018
 ! Expires: 5 days (update frequency)
 ! Download:  https://cdn.rawgit.com/SlashArash/adblockfa/master/adblockfa.txt
 ! Homepage: https://github.com/SlashArash/adblockfa
@@ -114,6 +114,7 @@
 ||popupirani.ir^$third-party,popup
 ||popupplus.ir^$third-party,popup
 ||popupsky.ir^$third-party,popup
+||popuptala.com^$third-party
 ||sabavision.com^$third-party
 ||sanjagh.net^$third-party
 ||setarebux.ir^$third-party,popup
@@ -473,15 +474,21 @@ farnet.ir##.bsac-image
 gadgetnews.ir##.ad-cell
 gameon.shatelland.com##.ad
 ghalebgraph.ir##.border.ads
+hastidl.me###lkbt
+hastidl.me###vb097w3
 hastidl.net##.container > center
+hexdownload.net##.fm-ads-static
+hexdownload.net##.zir-head-ads
 hidoctor.ir##.adsht
 ilna.ir###sticker
 ilna.ir##.zxcList
+ir-dl.com###stickytop
 isport.ir##.iTablighitem
 itiran.com##.addver2
 itresan.com##.ad-custom-size
 itresan.com##.adsbanner1
 kafemarketing.com##.bigAd
+kandoocn.com##.adme
 khabarfarsi.com###banners_120_top
 khabarfarsi.com##.region-logo-area
 khabarpu.com##.txtads-whitebck
@@ -505,12 +512,18 @@ pooldarsho.ir##.advertisement-content
 razmovie.com##.ads
 rooziato.com##.aside_ads
 rooziato.com##.home_top_ads
+salamdl.info##.b-hd
 saten.ir##.b5san-post
 shanbemag.ir##.advertisement
 shanbemag.ir##.header_advertisement
 shariyan.com##.Publicity_item
 shenoto.com##._ads
 smusic.ir###top-ads-right
+soft98.ir###adx-special
+soft98.ir##.acdb-image
+soft98.ir##.acdb_inner
+soft98.ir##.adx-image
+soft98.ir##.adx_inner
 soft98.ir##.banners
 tehmovies.pro##.litebox
 toranji.ir##.square-ad
@@ -518,8 +531,8 @@ trakhtorlink.com###sidebarleft
 uupload.ir###ads150
 uupload.ir###ads150r
 uupload.ir##.tab_box
+video.varzesh3.com##.banner
 worldit.ir###content > .postad
-worldsubtitle.biz###advertisement
 worldsubtitle.biz###advertisement
 wpnovin.com##.adwidget
 wpnovin.com##.header-ad
@@ -537,6 +550,7 @@ www.akairan.com###ban51
 www.ariamovie5.com##.b940
 www.asriran.com##.adv_ifram_ticket
 www.bornanews.ir##.type-resource
+www.chetor.com##.adloc-is-banner
 www.cooldownload.ir##.fixedbanner2
 www.eghtesadnews.com###left-douchad
 www.eghtesadnews.com##.special-head-add
@@ -548,6 +562,7 @@ www.farsnews.com##embed
 www.farsroid.com##.ad
 www.farsroid.com##.post-sabet
 www.film2movie.co##.headbanners
+www.film2movie.ws##.headbanners
 www.filmovies.ir##.bar-container
 www.gsm.ir##.a_gsm_d
 www.hamshahrionline.ir##.advContainer
@@ -591,6 +606,9 @@ www.tarfandestan.com##.ads
 www.tgju.org###popup-layer-container
 www.tinn.ir##.type-resource-image
 www.trakhtorlink.com###sidebarleft
+www.uptvs.com###anetwork-PB
+www.uptvs.com##.my-ads
+www.uptvs.com##.top-advertis
 www.vajehyab.com###yektanet-articles-65
 www.vbiran.ir##.vbiran-ads
 www.zoomit.ir##.pad0A_mobile
@@ -607,12 +625,14 @@ zoomtech.ir###top_ads
 ||98ia.com/images/Banner/
 ||98url.com/banners/$image
 ||a.clickyab.com/ads/
+||achar24.ir/images/tad/$image
 ||ad.nowaroos.com/$image
 ||ad.utop.ir/b/
 ||adpic.asiatech.ir/
 ||ads.akairan.com/
 ||ads.akkasee.com/$image
 ||ads.arna.ir/$image
+||ads.barnamenevis.biz/$image
 ||ads.barnameserver.com/
 ||ads.farzand.net
 ||ads.goldiran.ir/
@@ -890,6 +910,7 @@ zoomtech.ir###top_ads
 ||www.alodoctor.ir/Content/images/banner/$image
 ||www.baharnews.ir/images/advertise/$image
 ||www.car.ir/files/adv/$image
+||www.chidaneh.com/sites/default/files/advertisement/$image
 ||www.cinematicket.org/images/a-d/$image
 ||www.dolatebahar.com/media/media/banners/$image
 ||www.eghtesadeiranonline.com/images/advertise/$object
