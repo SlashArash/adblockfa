@@ -928,7 +928,7 @@ zoomtech.ir###top_ads
 ||www.tarafdari.com/sites/default/files/apps/advertise/$image
 ||www.urlrate.net/banners/$image
 ||www.webhostingtalk.ir/ads/
-||www.اسکریپت.com/ads/$image
+||www.xn--mgbguh09aqiwi.com/ads/$image
 ||xperian.ir/xperian/wp-content/uploads/*.gif
 ||xscript.ir/*.gif
 ||yasdl.com/wp-content/uploads/*.gif
