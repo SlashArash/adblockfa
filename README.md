@@ -1,4 +1,5 @@
-# AdBlockFa
+# AdBlock Farsi
+
 <p dir="rtl">
 این لیست مجموعه‌ای از فیلترهای جمع آوری شده برای مسدود کردن تبلیغات در سایت‌های فارسی ست و به مرور زمان در حال بروزرسانی می‌باشد.
 </p>
@@ -67,8 +68,8 @@
 در این <a href="https://github.com/SlashArash/adblockfa/issues/4">issue</a> توی گیت‌هاب سعی کردم به صورت خلاصه توضیح بدم که چرا این فهرست رو به صورت مستقل توسعه می‌دهم ولی به زودی به صورت دقیق‌تر این رو توضیح خواهم داد.
 </p>
 
-
 ---
+
 <h2 dir="rtl">
 نصب دستی در افزونه‌ها
 </h2>
@@ -89,7 +90,7 @@
 در مرورگر فایرفاکس پس از کلیک روی آیکون افزونه، مراحل زیر را طی کنید.
 </p>
 
-	Filter preferences  ->  Add filter subscription(button)  ->  Add a different subscription(link)  ->  First list location(field) = http://bit.ly/abFarsi ->  Add subscription(button)
+    Filter preferences  ->  Add filter subscription(button)  ->  Add a different subscription(link)  ->  First list location(field) = http://bit.ly/abFarsi ->  Add subscription(button)
 
 <h4 dir="rtl">
 گوگل کروم:
@@ -97,7 +98,7 @@
 <p dir="rtl">
 در مرورگر گوگل کروم پس از کلیک روی آیکون افزونه، مراحل زیر را طی کنید.
 
-	Options  ->  Filter lists(tab)  ->  Add filter subscription(button)  -> (choose)Add a different subscription(option)  ->  First list location(field) = http://bit.ly/abFarsi ->  Add(button)
+    Options  ->  Filter lists(tab)  ->  Add filter subscription(button)  -> (choose)Add a different subscription(option)  ->  First list location(field) = http://bit.ly/abFarsi ->  Add(button)
 
 <h3 dir="rtl">
 نصب مرحله به مرحله در ublock origin:
@@ -106,4 +107,4 @@
 برای استفاده در ublock origin در هر دو مرورگر پس از کلیک روی آیکون افزونه، روی آیکون تنظیمات در پنجرهٔ باز شده کلیک کنید. سپس مراحل زیر را طی کنید.
 </p>
 
-	3rd-party filters  ->  (at end of the page on textbox)  ->  (write)http://bit.ly/abFarsi -> Parse(button) -> Apply changes(button)
+    3rd-party filters  ->  (at end of the page on textbox)  ->  (write)http://bit.ly/abFarsi -> Parse(button) -> Apply changes(button)
