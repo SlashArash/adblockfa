@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: 5GQ/Zwm4msEuOK6BTkWITA
-! Version: 181222
+! Checksum: Z/MtKrIecJz6hNglfK8IrA
+! Version: 190120
 ! Title: AdBlock Farsi
-! Last modified: Sat Dec 22 23:01:16 +0330 2018
+! Last modified: Sun Jan 20 22:57:01 +0330 2019
 ! Expires: 5 days (update frequency)
-! Download:  https://cdn.rawgit.com/SlashArash/adblockfa/master/adblockfa.txt
+! Download:  https://raw.githubusercontent.com/SlashArash/adblockfa/master/adblockfa.txt
 ! Homepage: https://github.com/SlashArash/adblockfa
 ! Support:   https://github.com/SlashArash/adblockfa/issues 
 ! License: The Beer-Ware License (The Ab-Havij-Ware License)
@@ -22,6 +22,7 @@
 ||adplxmd.com^$third-party,popup
 ||adpulse.ir^$third-party
 ||adsgozar.com^$third-party
+||adsima.net^$third-party
 ||adskyo.com^$third-party
 ||adsready.com^$third-party
 ||adtube.ir^$third-party
@@ -928,7 +929,7 @@ zoomtech.ir###top_ads
 ||www.tarafdari.com/sites/default/files/apps/advertise/$image
 ||www.urlrate.net/banners/$image
 ||www.webhostingtalk.ir/ads/
-||www.xn--mgbguh09aqiwi.com/ads/$image
+||www.اسکریپت.com/ads/$image
 ||xperian.ir/xperian/wp-content/uploads/*.gif
 ||xscript.ir/*.gif
 ||yasdl.com/wp-content/uploads/*.gif
