@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Z/MtKrIecJz6hNglfK8IrA
-! Version: 190120
+! Checksum: t7ZNJtdSWeSbgrSltte7+w
+! Version: 200518
 ! Title: AdBlock Farsi
-! Last modified: Sun Jan 20 22:57:01 +0330 2019
+! Last modified: Mon 18 May 2020 01:03:30 PM +0430
 ! Expires: 5 days (update frequency)
 ! Download:  https://raw.githubusercontent.com/SlashArash/adblockfa/master/adblockfa.txt
 ! Homepage: https://github.com/SlashArash/adblockfa
@@ -481,8 +481,6 @@ hastidl.net##.container > center
 hexdownload.net##.fm-ads-static
 hexdownload.net##.zir-head-ads
 hidoctor.ir##.adsht
-ilna.ir###sticker
-ilna.ir##.zxcList
 ir-dl.com###stickytop
 isport.ir##.iTablighitem
 itiran.com##.addver2
@@ -521,11 +519,13 @@ shariyan.com##.Publicity_item
 shenoto.com##._ads
 smusic.ir###top-ads-right
 soft98.ir###adx-special
+soft98.ir##.a5d2x
 soft98.ir##.acdb-image
 soft98.ir##.acdb_inner
 soft98.ir##.adx-image
 soft98.ir##.adx_inner
 soft98.ir##.banners
+soft98.ir##.show.toast-lg.fade.toast
 tehmovies.pro##.litebox
 toranji.ir##.square-ad
 trakhtorlink.com###sidebarleft
@@ -559,7 +559,9 @@ www.eghtesadnews.com##.type-resource-image
 www.eghtesadonline.com##.type-resource-image
 www.elmefarda.com##.ads
 www.elmevarzesh.com##.ads_1
-www.farsnews.com##embed
+www.farsnews.ir##embed
+www.farsnews.ir##.p-0.d-lg-inline-block.d-none.col-3
+www.farsnews.ir##div.my-2.w-100
 www.farsroid.com##.ad
 www.farsroid.com##.post-sabet
 www.film2movie.co##.headbanners
@@ -571,8 +573,8 @@ www.hidoctor.ir##.pdsadsboxcy
 www.hidoctor.ir##.pdsadsleft
 www.hidoctor.ir##.pdsifradsbn
 www.hidoctor.ir##.pdslanboxbg
-www.ilnanews.com##.type-resource-image
-www.ilnanews.com##.type-script
+www.ilna.news##.zxc
+www.ilna.news##.zxc.w300
 www.iranjib.ir###mainadv
 www.iranjib.ir##.col2tabl
 www.iranjib.ir##.col4tabl
