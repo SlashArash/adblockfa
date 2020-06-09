@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: t7ZNJtdSWeSbgrSltte7+w
-! Version: 200518
+! Checksum: 7mCu1tE9StjaZLT0yNPFMQ
+! Version: 2020609
 ! Title: AdBlock Farsi
-! Last modified: Mon 18 May 2020 01:03:30 PM +0430
+! Last modified: Tue 09 Jun 2020 12:29:47 PM +0430
 ! Expires: 5 days (update frequency)
 ! Download:  https://raw.githubusercontent.com/SlashArash/adblockfa/master/adblockfa.txt
 ! Homepage: https://github.com/SlashArash/adblockfa
@@ -21,6 +21,7 @@
 ||adpersia.com^$third-party
 ||adplxmd.com^$third-party,popup
 ||adpulse.ir^$third-party
+||adro.co^$third-party
 ||adsgozar.com^$third-party
 ||adsima.net^$third-party
 ||adskyo.com^$third-party
@@ -118,6 +119,7 @@
 ||popuptala.com^$third-party
 ||sabavision.com^$third-party
 ||sanjagh.net^$third-party
+||sanjagh.com^$third-party
 ||setarebux.ir^$third-party,popup
 ||sheypoor.com^$third-party
 ||sigmaad.com^$third-party
