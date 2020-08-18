@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: SUfPerz+7qvlUyu8si75fg
-! Version: 2020809
+! Checksum: chGtBrdKxbFfQyoxqE2yMA
+! Version: 2020818
 ! Title: AdBlock Farsi
-! Last modified: Sun 09 Aug 2020 09:31:19 AM +0430
+! Last modified: Tue 18 Aug 2020 11:31:31 AM +0430
 ! Expires: 5 days (update frequency)
 ! Download:  https://raw.githubusercontent.com/SlashArash/adblockfa/master/adblockfa.txt
 ! Homepage: https://github.com/SlashArash/adblockfa
@@ -490,6 +490,7 @@ isport.ir##.iTablighitem
 itiran.com##.addver2
 itresan.com##.ad-custom-size
 itresan.com##.adsbanner1
+itresan.com##.ydajsebnr-image
 kafemarketing.com##.bigAd
 kandoocn.com##.adme
 khabarfarsi.com###banners_120_top
@@ -507,8 +508,14 @@ namnak.com##.Bads
 naslemusic.com###fix-bottom-right
 ofoghnews.ir###advertises
 p30skill.ir###shop-banner
+parsfootball.com###ads-120
+parsfootball.com##.block-ads4
 payju.ir###ad_groups_4561
 payju.ir##.adslist
+peivast.com###ad-home-bellow-modir
+peivast.com###ad-home-bellow-slide
+peivast.com###ad-home-header
+peivast.com###ad-other-header
 persianv.com##.ads_center_page
 persianv.com##.banner_logo
 pooldarsho.ir##.advertisement-content
@@ -524,6 +531,7 @@ shenoto.com##._ads
 smusic.ir###top-ads-right
 soft98.ir###adx-special
 soft98.ir##.a5d2x
+soft98.ir##.a6d2x
 soft98.ir##.acdb-image
 soft98.ir##.acdb_inner
 soft98.ir##.adx-image
@@ -619,8 +627,9 @@ www.uptvs.com##.top-advertis
 www.vajehyab.com###yektanet-articles-65
 www.vbiran.ir##.vbiran-ads
 www.zoomit.ir##.pad0A_mobile
+www.zoomit.ir##.Tabligh
+www.zoomit.ir##.wide-adv-box
 zendegionline.ir##.advert
-zoomit.ir###rt-maintopcontent
 zoomtech.ir###banner_img
 zoomtech.ir###top_ads
 ||1admin.ir/wp-content/uploads/*300x250.jpg
