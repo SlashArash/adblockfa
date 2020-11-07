@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 0JgL0560puWkJsF51jV7jQ
+! Checksum: H04Oh7t04+/bwF2AyKFxyA
 ! Version: 20201107
 ! Title: AdBlock Farsi
-! Last modified: Sat Nov  7 09:32:46 AM +0330 2020
+! Last modified: Sat Nov  7 09:46:13 AM +0330 2020
 ! Expires: 5 days (update frequency)
 ! Download:  https://raw.githubusercontent.com/SlashArash/adblockfa/master/adblockfa.txt
 ! Homepage: https://github.com/SlashArash/adblockfa
@@ -12,35 +12,13 @@
 !-------------------------------------------------!
 !==============! Third-party Rules !==============!
 !-------------------------------------------------!
-||21bux.ir^$third-party,popup
-||ad2ad.ir^$third-party
-||adcash.com^$third-party,popup
-||adment.me^$third-party
-||adment.space^$third-party
 ||adnegah.net^$third-party
-||adpersia.com^$third-party
-||adplxmd.com^$third-party,popup
 ||adpulse.ir^$third-party
 ||adro.co^$third-party
-||adsgozar.com^$third-party
 ||adsima.net^$third-party
-||adskyo.com^$third-party
-||adsready.com^$third-party
-||adtube.ir^$third-party
-||adziran.ml^$third-party
 ||alipopup.ir^$third-party,popup
 ||anetwork.ir^$third-party
-||apanet.net^$third-party
-||ariyabux.ir^$third-party,popup
-||as-popup.ir^$third-party,popup
-||asandl.com^$third-party
 ||azarbux.com^$third-party
-||baharbux.ir^$third-party,popup
-||betbux.ir^$third-party
-||bux1.ir^$third-party,popup
-||buxi.ir^$third-party
-||buxirani.com^$third-party,popup
-||buxstar.ir^$third-party
 ||clickar.ir^$third-party
 ||clickyab.com^$third-party
 ||clikfa.com^$third-party
@@ -51,7 +29,6 @@
 ||directrev.com^$third-party,popup
 ||dunro.com^$third-party
 ||e-earn.ir^$third-party
-||facenama.com^$third-party
 ||farsbux.ir^$third-party
 ||fastclick.click^$third-party
 ||fastclick.co^$third-party
@@ -67,7 +44,6 @@
 ||irclick.net^$third-party,popup
 ||iroclick.ir^$third-party
 ||irpopup.ir^$third-party
-||itgheymat.com^$third-party,popup
 ||jaba.ir^$third-party,popup
 ||janebi.ir^$third-party,popup
 ||jaragheirani.ir^$third-party
