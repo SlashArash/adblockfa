@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: chGtBrdKxbFfQyoxqE2yMA
-! Version: 2020818
+! Checksum: 0JgL0560puWkJsF51jV7jQ
+! Version: 20201107
 ! Title: AdBlock Farsi
-! Last modified: Tue 18 Aug 2020 11:31:31 AM +0430
+! Last modified: Sat Nov  7 09:32:46 AM +0330 2020
 ! Expires: 5 days (update frequency)
 ! Download:  https://raw.githubusercontent.com/SlashArash/adblockfa/master/adblockfa.txt
 ! Homepage: https://github.com/SlashArash/adblockfa
@@ -471,9 +471,11 @@ donya-e-eqtesad.com##.type-resource-image
 download.ir##.content-top-ads-box
 downloadha.com##.entry-etc
 downloadly.ir###lkbik
+econews.ir##.advertise-place
 edcoan.ir###ads_me_aria
 elmefarda.com##.underpost
 emalls.ir##.detail-banner
+etemadonline.com##.ad-widget-container
 fararu.com##.txt_adv_content
 farnet.ir##.bsac-image
 gadgetnews.ir##.ad-cell
@@ -539,6 +541,7 @@ soft98.ir##.adx_inner
 soft98.ir##.banners
 soft98.ir##.show.toast-lg.fade.toast
 tehmovies.pro##.litebox
+tejaratnews.com##.tj-ad-wrapper
 toranji.ir##.square-ad
 trakhtorlink.com###sidebarleft
 uupload.ir###ads150
@@ -568,12 +571,13 @@ www.cooldownload.ir##.fixedbanner2
 www.eghtesadnews.com###left-douchad
 www.eghtesadnews.com##.special-head-add
 www.eghtesadnews.com##.type-resource-image
+www.eghtesadonline.com##.talfighat-BS
 www.eghtesadonline.com##.type-resource-image
 www.elmefarda.com##.ads
 www.elmevarzesh.com##.ads_1
+www.eranico.com###imgBanner
 www.farsnews.ir##embed
-www.farsnews.ir##.p-0.d-lg-inline-block.d-none.col-3
-www.farsnews.ir##div.my-2.w-100
+www.farsnews.ir##.adverBox
 www.farsroid.com##.ad
 www.farsroid.com##.post-sabet
 www.film2movie.co##.headbanners
@@ -594,10 +598,12 @@ www.iranjib.ir##.col51tabl
 www.iranjib.ir##.col52tabl
 www.iranjib.ir##.col54tabl
 www.jahannews.com##.text_ad_class
+www.khabaronline.ir##.ads
 www.khabaronline.ir##.advContainer
 www.kojaro.com##.bannerWrapper
 www.majidonline.com##.ads_zone
 www.majidonline.com##.inner_article_text_ads
+www.mashin3.com##.adBanner
 www.mashreghnews.ir###box30
 www.mashreghnews.ir###box55
 www.mashreghnews.ir###box59
