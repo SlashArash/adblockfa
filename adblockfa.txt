@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Acodfzhl5k6mvTWVzdybWg
-! Version: 20201108
+! Checksum: DSgRJAhDZF1/QIyCqnNQGA
+! Version: 20201111
 ! Title: AdBlock Farsi
-! Last modified: Sun Nov  8 12:31:01 PM +0330 2020
+! Last modified: Wed Nov 11 09:37:22 AM +0330 2020
 ! Expires: 5 days (update frequency)
 ! Download:  https://raw.githubusercontent.com/SlashArash/adblockfa/master/adblockfa.txt
 ! Homepage: https://github.com/SlashArash/adblockfa
@@ -21,7 +21,6 @@
 ||azarbux.com^$third-party
 ||clickyab.com^$third-party
 ||congoro.com^$third-party
-||digikala.com^$third-party
 ||e-earn.ir^$third-party
 ||farsbux.ir^$third-party
 ||irpopup.ir^$third-party
