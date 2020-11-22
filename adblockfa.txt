@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: DSgRJAhDZF1/QIyCqnNQGA
-! Version: 20201111
+! Checksum: PeQVMtcNFcZSH9azLUlZfA
+! Version: 20201122
 ! Title: AdBlock Farsi
-! Last modified: Wed Nov 11 09:37:22 AM +0330 2020
+! Last modified: Sun Nov 22 12:38:10 PM +0330 2020
 ! Expires: 5 days (update frequency)
 ! Download:  https://raw.githubusercontent.com/SlashArash/adblockfa/master/adblockfa.txt
 ! Homepage: https://github.com/SlashArash/adblockfa
@@ -380,6 +380,7 @@ anaj.ir##.bannerPosition
 androidiha.net##.bg-ads
 arsenal.ir##.ads_1
 asandl.com##.text-asan
+asbe-bokhar.com##.madd
 banki.ir##.textAdv
 barsam.ir##.td-header-sp-recs
 ccsp.ir##.bannerin
@@ -480,6 +481,7 @@ www.1fardadownload.net##.ads
 www.1pezeshk.com###adtube-261
 www.1pezeshk.com##.category-ad-sidebar-2
 www.1pezeshk.com##.enhanced-text-widget
+www.1pezeshk.com##.rd-widget-ads
 www.20script.ir##.hamyar_area
 www.2gheroon.ir###topBanner
 www.afkarnews.ir##.zxc
@@ -536,6 +538,7 @@ www.niksalehi.com##.banner_logo
 www.niksalehi.com##.banner_sid_desktop
 www.ninisite.com##.ad-wrapper
 www.p30day.com###before_post > .adsblockpop
+www.pedal.ir##.sidebar
 www.rajanews.com##.ads
 www.respinagroup.com##.banners-public-wrrap
 www.rokna.ir##.noprint.pb16.fullw_800.left_column.float > .v_zxc
@@ -598,6 +601,7 @@ zoomtech.ir###top_ads
 ||apktops.ir/wp-content/uppic/*.gif
 ||ariapix.net/images/*.gif
 ||asandl.com/Panel/
+||asbe-bokhar.com/ads/$image
 ||asemooni.com/*.gif
 ||asemooni.com/banner/
 ||ashiyane.org/banner/
@@ -850,6 +854,7 @@ zoomtech.ir###top_ads
 ||wp-tools.ir/wp-content/uploads/*.gif
 ||wpcity.ir/wp-content/uploads/*.gif
 ||wpland.ir/wp-content/uploads/*.gif
+||www.akhbarbank.com/images/advertise/$image
 ||www.alef.ir/files/advertise
 ||www.alodoctor.ir/Content/images/banner/$image
 ||www.baharnews.ir/images/advertise/$image
