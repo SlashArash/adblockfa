@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: PeQVMtcNFcZSH9azLUlZfA
-! Version: 20201122
+! Checksum: KRErOPIrsx5VriJKythixg
+! Version: 20210226
 ! Title: AdBlock Farsi
-! Last modified: Sun Nov 22 12:38:10 PM +0330 2020
+! Last modified: Fri Feb 26 09:29:02 PM +0330 2021
 ! Expires: 5 days (update frequency)
 ! Download:  https://raw.githubusercontent.com/SlashArash/adblockfa/master/adblockfa.txt
 ! Homepage: https://github.com/SlashArash/adblockfa
@@ -454,14 +454,8 @@ shanbemag.ir##.header_advertisement
 shariyan.com##.Publicity_item
 shenoto.com##._ads
 smusic.ir###top-ads-right
-soft98.ir###adx-special
-soft98.ir##.a5d2x
-soft98.ir##.a6d2x
-soft98.ir##.acdb-image
-soft98.ir##.acdb_inner
-soft98.ir##.adx-image
-soft98.ir##.adx_inner
-soft98.ir##.banners
+soft98.ir##.a7d5x-image
+soft98.ir##.a7d5x
 soft98.ir##.show.toast-lg.fade.toast
 tehmovies.pro##.litebox
 tejaratnews.com##.tj-ad-wrapper
