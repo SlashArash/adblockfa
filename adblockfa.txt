@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: +nLj5ilrGO9Gu4fg/cqDrQ
-! Version: 20210226
+! Checksum: VOW9fDrPppxbW4ij0TLL3w
+! Version: 20210318
 ! Title: AdBlock Farsi
-! Last modified: Fri Feb 26 11:32:47 PM +0330 2021
+! Last modified: Thu Mar 18 11:04:22 PM +0330 2021
 ! Expires: 5 days (update frequency)
 ! Download:  https://cdn.jsdelivr.net/gh/SlashArash/adblockfa@master/adblockfa.txt
 ! Homepage: https://github.com/SlashArash/adblockfa
@@ -400,7 +400,7 @@ elmefarda.com##.underpost
 emalls.ir##.detail-banner
 etemadonline.com##.ad-widget-container
 fararu.com##.txt_adv_content
-farnet.ir##.bsac-image
+farnet.io##.yhjqipwxcr
 gadgetnews.ir##.ad-cell
 gameon.shatelland.com##.ad
 ghalebgraph.ir##.border.ads
@@ -413,9 +413,7 @@ hidoctor.ir##.adsht
 ir-dl.com###stickytop
 isport.ir##.iTablighitem
 itiran.com##.addver2
-itresan.com##.ad-custom-size
-itresan.com##.adsbanner1
-itresan.com##.ydajsebnr-image
+itresan.com##.jagtnuzf
 kafemarketing.com##.bigAd
 kandoocn.com##.adme
 khabarfarsi.com###banners_120_top
@@ -457,6 +455,8 @@ smusic.ir###top-ads-right
 soft98.ir##.a7d5x-image
 soft98.ir##.a7d5x
 soft98.ir##.show.toast-lg.fade.toast
+techna.news##.custom-html-widget
+techna.news##.stream-item
 tehmovies.pro##.litebox
 tejaratnews.com##.tj-ad-wrapper
 toranji.ir##.square-ad
