@@ -1,13 +1,10 @@
-[Adblock Plus 2.0]
-! Checksum: U8jgTqJL18hB65Vzd1VGgQ
-! Version: 20210322
+[Adblock Plus 3.1]
+! Checksum: x/083NM8SnWWXLFqO4rTeA
+! Version: 20210410
 ! Title: AdBlock Farsi
-! Last modified: Mon Mar 22 09:32:07 PM +0430 2021
+! Last modified: Sat Apr 10 12:06:27 PM +0430 2021
 ! Expires: 5 days (update frequency)
-! Redirect: https://raw.githubusercontent.com/SlashArash/adblockfa/master/adblockfa.txt
 ! Homepage: https://github.com/SlashArash/adblockfa
-! Support: https://github.com/SlashArash/adblockfa/issues 
-! License: The Beer-Ware License (The Ab-Havij-Ware License)
 !
 !-------------------------------------------------!
 !==============! Third-party Rules !==============!
