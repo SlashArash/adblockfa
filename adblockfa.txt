@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: kW0b0ZadrxO2fLm662PSiA
-! Version: 20210523
+! Checksum: QJGRlGPzgmrNy7sOWUcJmw
+! Version: 20210627
 ! Title: AdBlock Farsi
-! Last modified: Sun May 23 12:02:02 PM +0430 2021
+! Last modified: Sun Jun 27 03:18:40 PM +0430 2021
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/SlashArash/adblockfa
 !
@@ -484,6 +484,8 @@ www.akairan.com###ban44
 www.akairan.com###ban51
 www.ariamovie5.com##.b940
 www.asriran.com##.adv_ifram_ticket
+www.beytoote.com##.countclick
+www.beytoote.com##.hamsan-container
 www.bornanews.ir##.type-resource
 www.chetor.com##.adloc-is-banner
 www.cooldownload.ir##.fixedbanner2
@@ -819,6 +821,7 @@ zoomtech.ir###top_ads
 ||snn.ir/content/images/*.gif
 ||softgozar.com/Image/SiteAde/
 ||spaceiran.com/images/all/banners/
+||storage.beytoote.com/images/adsbeytoote/$image
 ||subdown1.ir/*.gif
 ||takbook.com/banner/
 ||takhfifbartar.com/images/banner2/
