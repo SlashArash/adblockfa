@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: QJGRlGPzgmrNy7sOWUcJmw
-! Version: 20210627
+! Checksum: qsd2ejgZgADQmPfEakxKDw
+! Version: 20211002
 ! Title: AdBlock Farsi
-! Last modified: Sun Jun 27 03:18:40 PM +0430 2021
+! Last modified: Sat Oct 2 12:39:59 PM +0330 2021
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/SlashArash/adblockfa
 !
@@ -131,6 +131,7 @@
 ###advert-text
 ###advert-top
 ###advert-top-banner
+###advertisePlacement
 ###adwidg
 ###adz
 ###agahi
@@ -139,6 +140,7 @@
 ###floating-ad
 ###home_adv
 ###popup
+###sabavisionIframeAds
 ###second_ads
 ###tabligh
 ###tabligh-bottom
@@ -170,6 +172,7 @@
 ##.ad-container
 ##.ad-green
 ##.ad-item
+##.ad-itself
 ##.ad-red
 ##.ad_top
 ##.adblock
@@ -268,6 +271,7 @@
 ##.advert-top
 ##.advert-top-banner
 ##.advertise
+##.advertise-band
 ##.adwidg
 ##.adword-main
 ##.agahi
@@ -277,6 +281,7 @@
 ##.bannertop
 ##.box-ads
 ##.div_banner
+##.dsp-under-video-ad
 ##.e3lan
 ##.firstV_Message
 ##.headbanner
@@ -293,6 +298,7 @@
 ##.popup_link
 ##.postad
 ##.rightbannerfix
+##.sabavision-ads
 ##.side-ads-text
 ##.sidebar-textads
 ##.sidebaradbox
@@ -375,6 +381,8 @@
 aftabnews.ir##.logo-adv
 anaj.ir##.bannerPosition
 androidiha.net##.bg-ads
+aparat.com###advertise
+aparat.com##[data-list="filimoAds"]
 arsenal.ir##.ads_1
 asandl.com##.text-asan
 asbe-bokhar.com##.madd
@@ -821,6 +829,7 @@ zoomtech.ir###top_ads
 ||snn.ir/content/images/*.gif
 ||softgozar.com/Image/SiteAde/
 ||spaceiran.com/images/all/banners/
+||static.cdn.asset.aparat.com/agf-file/
 ||storage.beytoote.com/images/adsbeytoote/$image
 ||subdown1.ir/*.gif
 ||takbook.com/banner/
