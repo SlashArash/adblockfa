@@ -1,32 +1,38 @@
 [Adblock Plus 3.1]
-! Checksum: qsd2ejgZgADQmPfEakxKDw
-! Version: 20211002
+! Checksum: 1uj+hpDIVyIlV8VgWtyTsg
+! Version: 20211016
 ! Title: AdBlock Farsi
-! Last modified: Sat Oct 2 12:39:59 PM +0330 2021
+! Last modified: Sat Oct 16 11:39:16 AM +0330 2021
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/SlashArash/adblockfa
 !
 !-------------------------------------------------!
 !==============! Third-party Rules !==============!
 !-------------------------------------------------!
+||adivery.com^$third-party
 ||adnegah.net^$third-party
 ||adpulse.ir^$third-party
 ||adro.co^$third-party
 ||adsima.net^$third-party
+||adtrace.io^$third-party
 ||alipopup.ir^$third-party,popup
 ||anetwork.ir^$third-party
 ||azarbux.com^$third-party
+||chabok.io^$third-party
 ||clickyab.com^$third-party
 ||congoro.com^$third-party
 ||e-earn.ir^$third-party
 ||farsbux.ir^$third-party
+||fastclick.com^$third-party
 ||irpopup.ir^$third-party
 ||janebi.ir^$third-party,popup
 ||jetbux.ir^$third-party
 ||kaprila.com^$third-party
+||landyab.com^$third-party
 ||magnetadservices.com^$third-party
 ||mediaad.org^$third-party
 ||merita.ir^$third-party
+||metrix.ir^$third-party
 ||mihanclick.info^$third-party
 ||mitranet.ir^$third-party
 ||mitrarank.ir^$third-party,popup
@@ -37,6 +43,7 @@
 ||persianstat.com^$third-party
 ||persianstat.ir^$third-party
 ||popgozar.com^$third-party
+||popland.info^$third-party
 ||popmaster.ir^$third-party,popup
 ||poprush.net^$third-party,popup
 ||popup.smusic.ir^$third-party,popup
@@ -49,6 +56,7 @@
 ||sanjagh.com^$third-party
 ||sheypoor.com^$third-party
 ||tabligheirani.com^$third-party
+||tapsell.ir^$third-party
 ||tavoos.net^$third-party
 ||terraclicks.com^$third-party,popup
 ||toppopup.com^$third-party
