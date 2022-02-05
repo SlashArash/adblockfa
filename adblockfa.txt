@@ -647,6 +647,7 @@ zoomtech.ir###top_ads
 ||developer1.ir/Pic/ADS/
 ||digiboy.ir/wp-content/themes/itblogs/DiGiADs/
 ||digionline.ir/Objects/
+||display.netbina.com/banner
 ||dl.nasimonline.ir/FileRepository/$image
 ||donya-e-eqtesad.com/banner/
 ||donya-e-eqtesad.com/images/banners/
