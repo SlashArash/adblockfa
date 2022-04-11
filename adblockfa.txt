@@ -288,6 +288,7 @@
 ##.banneritem
 ##.bannertop
 ##.box-ads
+###boxtopads
 ##.div_banner
 ##.dsp-under-video-ad
 ##.e3lan
@@ -394,6 +395,7 @@ aparat.com##[data-list="filimoAds"]
 arsenal.ir##.ads_1
 asandl.com##.text-asan
 asbe-bokhar.com##.madd
+avazak.ir###hads
 banki.ir##.textAdv
 barsam.ir##.td-header-sp-recs
 ccsp.ir##.bannerin
@@ -860,6 +862,7 @@ zoomtech.ir###top_ads
 ||vista.ir/banners/
 ||vista.ir/js/popnews.js
 ||webgoo.ir/ads/
+||weblogskin.com/benner/
 ||wikinaz.ir/wp-content/uploads/*.gif
 ||wikiseda.org/static/banner/$image
 ||windowscenter.ir/wp-content/uploads/*.gif
