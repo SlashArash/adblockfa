@@ -360,6 +360,7 @@
 /ads-image/*
 /ads-pic/*
 /ads/banner/*
+/ads/banners/*
 /adsImage/*
 /adsbox/*
 /adsurls/*
@@ -633,7 +634,8 @@ zoomtech.ir###top_ads
 ||bigtheme.ir/wp-content/uploads/*.gif
 ||blaxup.net/upload/ads/$image
 ||blogers.ir/ads/
-||blogfa.com/ads/banners/
+||blogfa.com/a/
+||blogfa.com/b/
 ||boursepress.ir/img/banners/
 ||c21.ir/niazpardaz.com/banner/
 ||caffecinema.com/media/banners/$image
