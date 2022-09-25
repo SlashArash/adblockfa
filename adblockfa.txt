@@ -645,6 +645,9 @@ zoomtech.ir###top_ads
 ||dehvand.ir/wp-content/themes/job-dehvand/banner/*
 ||developer1.ir/Pic/ADS%20Banner/
 ||developer1.ir/Pic/ADS/
+||digiboy.ir/wp-content/img/header/
+||digiboy.ir/wp-content/img/sidebar/
+||digiboy.ir/wp-content/img/sponsors/
 ||digiboy.ir/wp-content/themes/itblogs/DiGiADs/
 ||digionline.ir/Objects/
 ||dl.nasimonline.ir/FileRepository/$image
