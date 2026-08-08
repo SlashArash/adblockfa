@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
 ! Checksum: 1uj+hpDIVyIlV8VgWtyTsg
-! Version: 20260727
+! Version: 20260808
 ! Title: AdBlock Farsi
-! Last modified: Mon Jul 16 5:49:30 PM +0330 2021
+! Last modified: Sat Aug 08 3:59:49 PM +0330 2026
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/SlashArash/adblockfa
 !
@@ -10,6 +10,7 @@
 !==============! Third-party Rules !==============!
 !-------------------------------------------------!
 ||adexo.ir^$third-party
+||adexofiles.ir^$third-party
 ||adivery.com^$third-party
 ||adnegah.net^$third-party
 ||adpulse.ir^$third-party
